@@ -1,0 +1,324 @@
+{
+  "dual_hopper": {
+    "machines": ["mc25", "mc26"],
+    "tabs": {
+      "1": [
+        {
+          "name": "FWD START DEG",
+          "key": "valve_fwd_start_deg_hmi_left",
+          "displayKey": "valve_fwd_start_deg_hmi_left"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "valve_fwd_end_start_deg_hmi_left",
+          "displayKey": "valve_fwd_end_start_deg_hmi_left"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "valve_rev_start_deg_hmi_left",
+          "displayKey": "valve_rev_start_deg_hmi_left"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "valve_rev_end_deg_hmi_left",
+          "displayKey": "valve_rev_end_deg_hmi_left"
+        }
+      ],
+      "1b": [
+        {
+          "name": "FWD START DEG",
+          "key": "valve_fwd_start_deg_hmi_right",
+          "displayKey": "valve_fwd_start_deg_hmi_right"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "valve_fwd_end_start_deg_hmi_right",
+          "displayKey": "valve_fwd_end_start_deg_hmi_right"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "valve_rev_start_deg_hmi_right",
+          "displayKey": "valve_rev_start_deg_hmi_right"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "valve_rev_end_deg_hmi_right",
+          "displayKey": "valve_rev_end_deg_hmi_right"
+        }
+      ],
+      "2": [
+        {
+          "name": "FWD START DEG",
+          "key": "filling_fwd_start_deg_left",
+          "displayKey": "filling_fwd_start_deg_left"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "filling_fwd_end_deg_left",
+          "displayKey": "filling_fwd_end_deg_left"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "filling_rev_start_deg_left",
+          "displayKey": "filling_rev_start_deg_left"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "filling_rev_end_deg_left",
+          "displayKey": "filling_rev_end_deg_left"
+        }
+      ],
+      "2b": [
+        {
+          "name": "FWD START DEG",
+          "key": "filling_fwd_start_deg_right",
+          "displayKey": "filling_fwd_start_deg_right"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "filling_fwd_end_deg_right",
+          "displayKey": "filling_fwd_end_deg_right"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "filling_rev_start_deg_right",
+          "displayKey": "filling_rev_start_deg_right"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "filling_rev_end_deg_right",
+          "displayKey": "filling_rev_end_deg_right"
+        }
+      ],
+      "3": [
+        {
+          "name": "FWD START DEG",
+          "key": "vert_sealer_fwd_start_deg_hmi",
+          "displayKey": "vert_sealer_fwd_start_deg_hmi"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "vert_sealer_fwd_end_start_deg_hmi",
+          "displayKey": "vert_sealer_fwd_end_start_deg_hmi"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "vert_sealer_rev_start_deg_hmi",
+          "displayKey": "vert_sealer_rev_start_deg_hmi"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "vert_sealer_rev_end_deg_hmi",
+          "displayKey": "vert_sealer_rev_end_deg_hmi"
+        }
+      ],
+      "4": [
+        {
+          "name": "FWD START DEG",
+          "key": "hori_sealer_fwd_start_deg_hmi",
+          "displayKey": "hori_sealer_fwd_start_deg_hmi"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "hori_sealer_fwd_end_deg_hmi",
+          "displayKey": "hori_sealer_fwd_end_deg_hmi"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "hori_sealer_rev_start_deg_hmi",
+          "displayKey": "hori_sealer_rev_start_deg_hmi"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "hori_sealer_rev_end_deg_hmi",
+          "displayKey": "hori_sealer_rev_end_deg_hmi"
+        }
+      ]
+    },
+    "mc25": {
+      "1b": [
+        {
+          "name": "FWD START DEG",
+          "key": "valve_fwd_start_deg_hmi_right",
+          "displayKey": "valve_fwd_start_deg_hmi_right"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "valve_fwd_end_start_deg_hmi_right",
+          "displayKey": "valve_fwd_end_start_deg_hmi_right"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "valve_rev_start_deg_hmi_right",
+          "displayKey": "valve_rev_start_deg_hmi_right"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "valve_rev_end_deg_hmi_right",
+          "displayKey": "valve_rev_end_deg_hmi_right"
+        }
+      ],
+      "2b": [
+        {
+          "name": "FWD START DEG",
+          "key": "filling_fwd_start_deg_right",
+          "displayKey": "filling_fwd_start_deg_right"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "filling_fwd_end_deg_right",
+          "displayKey": "filling_fwd_end_deg_right"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "filling_rev_start_deg_right",
+          "displayKey": "filling_rev_start_deg_right"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "filling_rev_end_deg_right",
+          "displayKey": "filling_rev_end_deg_right"
+        }
+      ]
+    },
+    "mc26": {
+      "1b": [
+        {
+          "name": "FWD START DEG",
+          "key": "valve_fwd_start_deg_hmi_right",
+          "displayKey": "valve_fwd_start_deg_hmi_right"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "valve_fwd_end_start_deg_hmi_right",
+          "displayKey": "valve_fwd_end_start_deg_hmi_right"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "valve_rev_start_deg_hmi_right",
+          "displayKey": "valve_rev_start_deg_hmi_right"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "valve_rev_end_deg_hmi_right",
+          "displayKey": "valve_rev_end_deg_hmi_right"
+        }
+      ],
+      "2b": [
+        {
+          "name": "FWD START DEG",
+          "key": "filling_fwd_start_deg_right",
+          "displayKey": "filling_fwd_start_deg_right"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "filling_fwd_end_deg_right",
+          "displayKey": "filling_fwd_end_deg_right"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "filling_rev_start_deg_right",
+          "displayKey": "filling_rev_start_deg_right"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "filling_rev_end_deg_right",
+          "displayKey": "filling_rev_end_deg_right"
+        }
+      ]
+    }
+  },
+  "single_hopper": {
+    "machines": ["mc27", "mc28", "mc29", "mc30"],
+    "tabs": {
+      "1": [
+        {
+          "name": "FWD START DEG",
+          "key": "rotary_valve_fwd_start_deg_hmi",
+          "displayKey": "rotary_valve_fwd_start_deg_hmi"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "rotary_valve_fwd_end_deg_hmi",
+          "displayKey": "rotary_valve_fwd_end_deg_hmi"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "rotary_valve_rev_start_deg_hmi",
+          "displayKey": "rotary_valve_rev_start_deg_hmi"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "rotary_valve_rev_end_deg_hmi",
+          "displayKey": "rotary_valve_rev_end_deg_hmi"
+        }
+      ],
+      "2": [
+        {
+          "name": "FWD START DEG",
+          "key": "filling_fwd_start_deg",
+          "displayKey": "filling_fwd_start_deg"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "filling_fwd_end_deg",
+          "displayKey": "filling_fwd_end_deg"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "filling_rev_start_deg",
+          "displayKey": "filling_rev_start_deg"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "filling_rev_end_deg",
+          "displayKey": "filling_rev_end_deg"
+        }
+      ],
+      "3": [
+        {
+          "name": "FWD START DEG",
+          "key": "vert_sealer_fwd_start_deg_hmi",
+          "displayKey": "vert_sealer_fwd_start_deg_hmi"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "vert_sealer_fwd_end_deg_hmi",
+          "displayKey": "vert_sealer_fwd_end_deg_hmi"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "vert_sealer_rev_start_deg_hmi",
+          "displayKey": "vert_sealer_rev_start_deg_hmi"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "vert_sealer_rev_end_deg_hmi",
+          "displayKey": "vert_sealer_rev_end_deg_hmi"
+        }
+      ],
+      "4": [
+        {
+          "name": "FWD START DEG",
+          "key": "hori_sealer_fwd_start_deg_hmi",
+          "displayKey": "hori_sealer_fwd_start_deg_hmi"
+        },
+        {
+          "name": "FWD END DEG",
+          "key": "hori_sealer_fwd_end_deg_hmi",
+          "displayKey": "hori_sealer_fwd_end_deg_hmi"
+        },
+        {
+          "name": "REV START DEG",
+          "key": "hori_sealer_rev_start_deg_hmi",
+          "displayKey": "hori_sealer_rev_start_deg_hmi"
+        },
+        {
+          "name": "REV END DEG",
+          "key": "hori_sealer_rev_end_deg_hmi",
+          "displayKey": "hori_sealer_rev_end_deg_hmi"
+        }
+      ]
+    }
+  }
+}

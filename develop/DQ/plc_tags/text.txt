@@ -1,0 +1,36 @@
+WITH six_hour_window AS (
+    SELECT 
+        NOW() - INTERVAL '6 hours' as window_start,
+        NOW() as window_end
+),
+status_changes AS (
+    SELECT 
+        timestamp,
+        status,
+        LEAD(timestamp) OVER (ORDER BY timestamp) as next_timestamp
+    FROM mc17
+    WHERE timestamp >= (NOW() - INTERVAL '6 hours' - INTERVAL '1 minute')
+),
+bounded_intervals AS (
+    SELECT 
+        GREATEST(timestamp, (SELECT window_start FROM six_hour_window)) as start_time,
+        LEAST(
+            COALESCE(next_timestamp, (SELECT window_end FROM six_hour_window)),
+            (SELECT window_end FROM six_hour_window)
+        ) as end_time,
+        status
+    FROM status_changes
+    WHERE 
+        timestamp <= (SELECT window_end FROM six_hour_window)
+        AND (next_timestamp >= (SELECT window_start FROM six_hour_window) 
+             OR next_timestamp IS NULL)
+        AND status = 1
+)
+
+SELECT 
+    ROUND(SUM(EXTRACT(EPOCH FROM (end_time - start_time)))/3600, 2) as hours,
+    ROUND(
+        (SUM(EXTRACT(EPOCH FROM (end_time - start_time))) / (6 * 3600) * 100)::numeric, 
+        2
+    ) as percentage
+FROM bounded_intervals;

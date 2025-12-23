@@ -1,0 +1,118 @@
+################################################################################
+# SPDX-FileCopyrightText: Copyright (c) 2020-2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+################################################################################
+
+# The values in the config file are overridden by values set through GObject
+# properties.
+
+[property]
+enable=1
+#Width height used for configuration to which below configs are configured
+config-width=3840
+config-height=2160
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=0
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+
+## Per stream configuration
+[roi-filtering-stream-0]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+#roi-mc26_preinfeed_L4C1 = 2562;27;2640;303;3378;351;3147;66
+#roi-mc25_preinfeed = 1542;54;1527;288;2226;291;2226;51
+#roi-mc26_post_outfeed_L4C1 = 2631;615;2703;789;3345;834;3207;621
+#roi-mc25_post_outfeed = 1482;522;1425;741;2361;729;2310;504
+roi-mc26_outfeed = 1868;484;2304;488;2416;836;2160;836;2172;764;1880;768
+roi-mc25_outfeed = 1444;472;1832;488;1844;776;1592;776;1584;908;1336;860
+roi-mc26_infeed_rh = 2301;507;2571;510;2739;921;2412;936
+roi-mc25_infeed_lh = 1161;486;1449;501;1287;945;966;930
+#roi-mc26_dropping_zone = 2454;1068;2259;1722;2328;1965;2664;1944;3066;1209; 3006;1047
+#roi-mc25_dropping_zone = 705;1143;1050;1845;1422;1875;1491;1641;1293;1065
+roi-mc26_infeed_jamming = 2548;288;2924;1224;2524;1212;2236;296
+roi-mc25_infeed_jamming = 1508;284;1240;1208;812;1180;1208;276
+#remove objects in the ROI
+inverse-roi=0
+class-id=0
+
+
+## Per stream configuration
+[roi-filtering-stream-1]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+#roi-mc28_preinfeed_L4C2 = 2583;75;2655;366;3393;441;3366;360;3234;150
+#roi-mc27_preinfeed = 1557;21;1557;312;2250;312;2298;48
+#roi-mc26_preinfeed_L4C2 = 483;110;348;327;372;393;1107;300;1206;63
+#roi-mc28_post_outfeed_L4C2 = 2619;558;2676;825;3291;825;3210;591
+#roi-mc27_post_outfeed = 1452;567;1389;744;2229;771;2220;585
+#roi-mc26_post_outfeed_L4C2 = 606;486;429;792;1029;795;1143;507
+roi-mc28_outfeed = 1932;480;2312;492;2414;886;2190;898;2174;762;1956;750
+roi-mc27_outfeed = 1455;486;1893;483;1870;726;1590;717;1561;896;1322;878
+#roi-mc28_dropping_zone = 2469;1098;2262;1692;2325;1977;2646;1989;3012;1245; 2925;1089
+#roi-mc27_dropping_zone = 681;1164;1080;1965;1368;1989;1428;1722;1245;1098
+roi-mc28_infeed_rh = 2320;524;2592;540;2786;1030;2458;1024
+roi-mc27_infeed_lh = 1116;615;1407;609;1263;1017;957;993
+roi-mc28_infeed_jamming = 2576;348;2900;1180;2500;1196;2300;344
+roi-mc27_infeed_jamming = 1484;312;1204;1224;832;1176;1232;312
+#roi-mc27_infeed_jamming = 1544;236;1204;1200;848;1160;1284;248
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+## Per stream configuration
+[roi-filtering-stream-2]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+#roi-mc30_preinfeed_L4C3 = 2682;174;2799;397;3573;483;3327;132;2790;39
+#roi-mc29_preinfeed = 1548;12;1527;303;2343;327;2367;138;2304;12
+#roi-mc28_preinfeed_L4C3 = 657;24;321;333;1092;315;1296;12
+#roi-mc30_post_outfeed_L4C3 = 2724;645;2874;894;3348;918;3264;657
+#roi-mc29_post_outfeed = 1491;477;1353;792;2487;846;2439;531
+#roi-mc28_post_outfeed_L4C3 = 543;558;369;801;1017;813;1149;543
+roi-mc29_outfeed = 1450;532;1954;528;1932;822;1598;802;1576;936;1308;900
+roi-mc30_outfeed= 2056;544;2438;578;2542;972;2292;964;2276;820;2100;804
+#roi-mc30_dropping_zone = 2646;1134;2382;1797;2412;2094;2733;2088;3234;1320; 3117;1164
+#roi-mc29_dropping_zone = 633;1179;1017;1980;1374;2004;1440;1761;1230;1089
+roi-mc30_infeed_rh = 2442;536;2702;540;2940;1068;2634;1068
+roi-mc29_infeed_lh = 1180;464;1446;478;1222;954;898;944
+roi-mc30_infeed_jamming = 2652;372;3076;1244;2624;1328;2372;384
+roi-mc29_infeed_jamming = 1528;308;1180;1276;756;1164;1212;304
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+
+#Taping_view2
+[roi-filtering-stream-3]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-l4_outfeed=2886;246;2826;408;1965;174;2061;24
+roi-l4_tapping_outfeed=1032;1104;1158;960;1506;1338;1352;1484
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+
+
+
+

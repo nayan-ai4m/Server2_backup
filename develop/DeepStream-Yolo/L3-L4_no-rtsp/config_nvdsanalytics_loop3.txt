@@ -1,0 +1,97 @@
+################################################################################
+# SPDX-FileCopyrightText: Copyright (c) 2020-2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+################################################################################
+
+# The values in the config file are overridden by values set through GObject
+# properties.
+
+[property]
+enable=1
+#Width height used for configuration to which below configs are configured
+config-width=3840
+config-height=2160
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=2
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+
+#Loop 3 Taping Machine_View1	
+[roi-filtering-stream-4]
+enable = 0
+#roi-L3C4_infeed =3204;1446;681;1938;798;2151;1728;2154;3273;1614
+#roi-outfeed_L3L4_l3 = 444;1374;2346;1368;2502;1596;423;1827
+roi-pre_tap_l3 = 540;904;3656;900;3652;1764;536;1764
+
+
+
+[line-crossing-stream-4]
+enable=0
+class-id=0;1
+line-crossing-pre_taping_l3=2552;1268;1920;1296;2236;952;2280;1660
+#line-crossing-pre_taping_l3=2920;1240;2560;1264;2748;988;2760;1536
+
+
+# Loop 3 EOL PHOTO
+[roi-filtering-stream-0]
+enable = 1
+#roi-l4_case_erector = 465;723;315;918;711;939;735;753
+roi-case_erector_conveyor_l3 = 1362;1278;1608;1311;1368;1695;1119;1593
+#roi-check_weigher_rejection_l3 = 1644;1377;2268;1317;2343;1740;1545;1743
+roi-check_weigher_rejection_l3 = 2320;1268;2344;1804;1456;1868;1608;1340
+roi-conveyor_to_highbay_l3 = 2307;297;2421;303;2472;951;2340;945
+
+
+#Loop 3 HighBay
+[roi-filtering-stream-1]
+enable = 1
+#roi-highbay_l3 =  1566;237;1728;273;1623;501;2046;480;2040;759;1518;756;1383;1038;1035;939
+roi-highbay_l3 =  1488;244;1768;316;1688;492;2084;472;2124;864;1524;848;1236;1544;632;1392
+roi-cw_outfeed_l3 = 2127;459;2856;588;3261;1101;3072;1284;2682;861;2178;861
+
+
+
+#Loop 4 Taping Machine_View1	
+[roi-filtering-stream-5]
+enable = 0
+#roi-infeed_L4C4_l4 =201;231;3825;1140;3831;945;1629;111;555;6
+#roi-outfeed_L4C4_l4 = 876;531;2721;921;2751;1161;768;975
+roi-pre_tap_l4 = 376;556;3700;556;3700;1404;376;1404
+
+[line-crossing-stream-5]
+enable=0
+class-id=0;1
+#line-crossing-pre_taping_l4=2588;980;2140;992;2312;712;2332;1280
+line-crossing-pre_taping_l4=2608;988;2240;992;2448;776;2456;1236
+
+# Loop 4 EOL PHOTO
+[roi-filtering-stream-2]
+enable = 1
+#roi-l3_case_erector = 3438;1008;3213;1083;3306;1251;3561;1140
+roi-case_erector_conveyor_l4 = 2265;1539;2499;1503;2814;1920;2493;2004
+#roi-check_weigher_rejection_l4 = 1536;1716;2265;1815;2364;2118;1491;2052
+roi-check_weigher_rejection_l4 = 1532;1624;2316;1672;2480;2144;1460;2136
+roi-conveyor_to_highbay_l4 = 1470;528;1596;552;1530;1317;1362;1296
+
+
+#Loop 4 HighBay
+[roi-filtering-stream-3]
+enable = 1
+#roi-highbay_l4 = 1260;592;1064;1020;2248;992;2284;1588;148;1424;180;1136;972;492 
+roi-highbay_l4 = 540;852;1064;1020;2248;992;2284;1588;148;1424;180;1136
+roi-cw_outfeed_l4 = 1464;1005;2910;1155;3417;1635;3081;1947;2445;1560;1491;1494

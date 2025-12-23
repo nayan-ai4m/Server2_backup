@@ -1,0 +1,17 @@
+{
+    "tp_db": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024"
+    },
+    "event_db": {
+        "host": "100.96.244.68",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024"
+    },
+    "base_url": "http://192.168.0.185:8015"
+}

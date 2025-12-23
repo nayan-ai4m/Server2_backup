@@ -1,0 +1,96 @@
+################################################################################
+# SPDX-FileCopyrightText: Copyright (c) 2020-2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+################################################################################
+
+# The values in the config file are overridden by values set through GObject
+# properties.
+
+[property]
+enable=1
+#Width height used for configuration to which below configs are configured
+config-width=3840
+config-height=2160
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=0
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+
+## Per stream configuration
+[roi-filtering-stream-0]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-mc17_outfeed = 2010;639;2385;657;2457;1047;2253;1032;2241;906;2001;885
+roi-mc18_outfeed = 1920;620;1928;928;1696;912;1684;1104;1388;1044;1524;600
+roi-mc18_infeed_lh = 1218;648;1533;684;1401;1203;1056;1143
+roi-mc17_infeed_rh = 2391;630;2682;648;2859;1242;2478;1230
+roi-mc18_infeed_jamming = 1580;472;1272;1508;880;1440;1288;436
+roi-mc17_infeed_jamming = 2612;504;2920;1548;2524;1552;2336;548
+#remove objects in the ROI
+inverse-roi=0
+class-id=0
+
+[line-crossing-stream-0]
+enable=1
+line-crossing-mc17_auto_collator=2757;1440;3066;1443;3066;1299;3171;1719
+
+## Per stream configuration
+[roi-filtering-stream-1]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-mc20_outfeed = 1350;564;1749;564;1740;804;1497;801;1470;1032;1233;1026
+roi-mc19_outfeed = 1890;555;2319;552;2445;999;2217;1020;2163;804;1896;801
+#roi-mc20_infeed_lh = 1041;603;1335;588;1185;1125;867;1128
+roi-mc20_infeed_lh = 1286;770;1151;1190;820;1174;962;778
+#roi-mc19_infeed_rh = 2346;570;2631;567;2823;1092;2520;1092
+roi-mc19_infeed_rh = 2377;729;2697;720;2862;1130;2505;1192
+roi-mc20_infeed_jamming = 1384;400;1124;1412;740;1376;1080;416
+roi-mc19_infeed_jamming = 2572;408;2988;1312;2552;1340;2284;404
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+## Per stream configuration
+[roi-filtering-stream-2]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-mc22_infeed_lh = 1076;808;1404;792;1314;1210;934;1192
+roi-mc22_outfeed = 1443;654;1872;642;1872;927;1599;906;1572;1095;1330;1101
+roi-mc21_outfeed = 1980;660;2433;648;2586;1116;2328;1104;2250;888;2001;900
+#roi-mc21_infeed_rh = 2439;621;2715;603;2991;1122;2640;1161
+roi-mc21_infeed_rh = 2801;706;3000;1160;2638;1216;2476;739
+roi-mc22_infeed_jamming = 1468;488;1232;1580;804;1520;1164;500
+roi-mc21_infeed_jamming = 2668;456;3096;1364;2700;1404;2404;468
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+
+## Taping View 2
+[roi-filtering-stream-3]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-l3_tapping_outfeed=2715;555;2976;552;3030;1272;2706;1260
+roi-l3_outfeed=477;621;1035;24;1317;66;741;717
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1

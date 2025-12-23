@@ -1,0 +1,8 @@
+{
+    "1" : [
+    { "name": "Hopper Low Level", "keys": ["HMI_Hopper_Low_Level", "HMI_Hopper_1_Low_Level", "HMI_Hopper_2_Low_Level"] },
+    { "name": "Hopper High Level", "keys": ["HMI_Hopper_High_Level", "HMI_Hopper_1_High_Level", "HMI_Hopper_2_High_Level"] },
+    { "name": "Hopper Ext Low Level", "keys": ["HMI_Hopper_Ex_Low_Level", "HMI_Hopper_1_Ex_Low_Level", "HMI_Hopper_2_Ex_Low_Level"] },
+    { "name": "Hopper Level Percentage", "keys": ["Hopper_Level_Percentage", "Hopper_1_Level_Percentage", "Hopper_2_Level_Percentage"] }
+  ]
+}

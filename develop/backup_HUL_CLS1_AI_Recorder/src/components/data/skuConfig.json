@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "sku": "SSB1RSSF68436937",
+      "name": "Sunsilk Black",
+      "imageUrl": "/sunsilk_black.png"
+    },
+    {
+      "id": 2,
+      "sku": "CP1RSEGG68248688",
+      "name": "Clinic Plus with Egg Protein",
+      "imageUrl": "/clinik_plus_egg.png"
+    },
+    {
+      "id": 3,
+      "sku": "SSP1RSSF68810922",
+      "name": "Sunsilk Pink",
+      "imageUrl": "/sunsilk_pink.png"
+    },
+    {
+      "id": 4,
+      "sku": "CP1RSSFG69785815",
+      "name": "Clinic Plus",
+      "imageUrl": "/clinik_plus.png"
+    },
+    {
+      "id": 5,
+      "sku": "DVSC2R5",
+      "name": "Dove Shampoo C2",
+      "imageUrl": "/dove_c2.png"
+    },
+    {
+        "id": 6,
+        "sku": "DVSBPR0",
+        "name": "Dove Bio Protein",
+        "imageUrl": "/dove_bio_protein.png"
+      },
+      {
+        "id": 7,
+        "sku": "TRSI1R1",
+        "name": "Tresemme Intensive Repair",
+        "imageUrl": "/tresemme_intensive_repair.png"
+      },
+      {
+        "id": 8,
+        "sku": "TRRY100",
+        "name": "Tresemme Royal",
+        "imageUrl": "/tresemme_royal.png"
+      },
+      {
+        "id": 9,
+        "sku": "DVS1R1",
+        "name": "Dove Antidandruf",
+        "imageUrl": "/dove_DWS1R1.png"
+      },
+      {
+        "id": 10,
+        "sku": "DVSA3R8",
+        "name": "Dove Hairfall Rescue Shampoo Bioprotein Care",
+        "imageUrl": "/DVSA3R8.png"
+      },
+      {
+        "id": 11,
+        "sku": "DVWA2R8",
+        "name": "Dove Daily Shine Shampoo Bioprotein Care",
+        "imageUrl": "/DVWA2R8.png"
+      }
+  ]

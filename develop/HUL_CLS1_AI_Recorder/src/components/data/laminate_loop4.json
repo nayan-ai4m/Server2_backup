@@ -1,0 +1,24 @@
+{
+  "1": [
+    {
+      "name": "Hz. Front Temperature",
+      "key": "hor_temp_27_front",
+      "displayKey": "HMI_Hor_Seal_Front_27"
+    },
+    {
+      "name": "Hz. Rear Temperature",
+      "key": "hor_temp_28_rear",
+      "displayKey": "HMI_Hor_Seal_Front_28"
+    },
+    {
+      "name": "Hz. Sealer Stroke 1",
+      "key": "hori_sealer_stroke_1",
+      "displayKey": "HMI_Hor_Sealer_Strk_1"
+    },
+    {
+      "name": "Hz. Sealer Stroke 2",
+      "key": "hori_sealer_stroke_2",
+      "displayKey": "HMI_Hor_Sealer_Strk_2"
+    }
+  ]
+}

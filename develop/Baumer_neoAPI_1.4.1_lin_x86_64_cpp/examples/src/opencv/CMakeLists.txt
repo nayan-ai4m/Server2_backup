@@ -1,0 +1,114 @@
+cmake_minimum_required(VERSION 3.9.3)
+
+if(OPENCV_HIGHGUI_FOUND)
+    # set project properties
+    project(opencv_cpp)
+    message(STATUS "## invoking ${CMAKE_CURRENT_SOURCE_DIR}/CMakelist.txt")
+
+    include_directories(
+        SYSTEM
+        ${NEOAPI_ROOT_DIR}/include
+        ${OpenCV_INCLUDE_DIRS}
+    )
+
+    add_executable(mc17
+    	mc17.cpp)
+    add_executable(mc18
+        mc18.cpp)
+    add_executable(mc19
+        mc19.cpp)
+    add_executable(mc20
+        mc20.cpp)
+    add_executable(mc21
+        mc21.cpp)
+    add_executable(mc22
+        mc22.cpp)
+    add_executable(mc25
+        mc25.cpp)
+    add_executable(mc26
+        mc26.cpp)
+    add_executable(mc27
+        mc27.cpp)
+    add_executable(mc28
+        mc28.cpp)
+    add_executable(mc29
+        mc29.cpp)
+    add_executable(mc30
+        mc30.cpp)
+
+    target_link_libraries(mc17
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+	nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc18
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc19
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc20
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc21
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc22
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+
+    target_link_libraries(mc26
+        neoapi_cpp
+        ${OpenCV_LIBS}
+	cppzmq
+	nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+
+    target_link_libraries(mc27
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+
+    target_link_libraries(mc25
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc28
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc29
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+    target_link_libraries(mc30
+        neoapi_cpp
+        ${OpenCV_LIBS}
+        cppzmq
+        nadjieb_mjpeg_streamer::nadjieb_mjpeg_streamer
+    )
+endif()

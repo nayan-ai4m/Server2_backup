@@ -1,0 +1,74 @@
+{
+    "mc_27_fcld": {
+        "status": 1
+    },
+    "mc_27_ecld": {
+        "status": 1
+    },
+    "mc_27_infeed": {
+        "status": 1
+    },
+    "mc_28_fcld": {
+        "status": 0
+    },
+    "mc_27_outfeed": {
+        "status": 1
+    },
+    "mc_28_ecld": {
+        "status": 1
+    },
+    "mc_28_outfeed": {
+        "status": 1
+    },
+    "mc_28_infeed": {
+        "status": 1
+    },
+    "mc_25_fcld": {
+        "status": 1
+    },
+    "mc_25_ecld": {
+        "status": 1
+    },
+    "mc_25_infeed": {
+        "status": 0
+    },
+    "mc_26_outfeed": {
+        "status": 1
+    },
+    "mc_25_outfeed": {
+        "status": 0
+    },
+    "mc_26_fcld": {
+        "status": 1
+    },
+    "mc_26_ecld": {
+        "status": 1
+    },
+    "mc_26_infeed": {
+        "status": 1
+    },
+    "mc_29_outfeed": {
+        "status": 0
+    },
+    "mc_29_fcld": {
+        "status": 1
+    },
+    "mc_29_ecld": {
+        "status": 1
+    },
+    "mc_29_infeed": {
+        "status": 0
+    },
+    "mc_30_outfeed": {
+        "status": 1
+    },
+    "mc_30_infeed": {
+        "status": 1
+    },
+    "mc_30_fcld": {
+        "status": 1
+    },
+    "mc_30_ecld": {
+        "status": 2
+    }
+}

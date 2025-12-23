@@ -1,0 +1,116 @@
+{
+    "nodes": [
+        "case_erector", "case_erector_conveyor", "L3C4_infeed", "mc22_preinfeed_L3C3", 
+        "mc21_preinfeed", "mc20_preinfeed_L3C3", "mc20_preinfeed_L3C2", "mc19_preinfeed", "mc18_preinfeed_L3C2", 
+        "mc18_preinfeed_L3C1", "mc17_preinfeed", "mc17_infeed", 
+        "mc17_dropping_zone", "mc17_outfeed", "mc17_post_outfeed", "mc18_post_outfeed_L3C1", 
+        "mc18_post_outfeed_L3C2", "mc19_post_outfeed", "mc20_post_outfeed_L3C2", 
+        "mc20_post_outfeed_L3C3", "mc21_post_outfeed", "mc22_post_outfeed_L3C3", 
+        "L3C4_outfeed", "pre_taping", "l3_tapping_outfeed", "conveyor_to_highbay", 
+        "check_weigher_rejection", "mc22_infeed", "mc22_dropping_zone", 
+        "mc22_outfeed", "mc21_infeed", "mc21_dropping_zone", "mc21_outfeed", 
+        "mc20_infeed", "mc20_dropping_zone", "mc20_outfeed", 
+        "mc19_infeed", "mc19_dropping_zone", "mc19_outfeed", 
+        "mc18_infeed", "mc18_dropping_zone", "mc18_outfeed"
+    ],
+    "edges": [
+        ["case_erector", "case_erector_conveyor"],
+        ["case_erector_conveyor", "L3C4_infeed"],
+        ["L3C4_infeed", "mc22_preinfeed_L3C3"],
+        ["mc22_preinfeed_L3C3", "mc21_preinfeed"],
+        ["mc21_preinfeed", "mc20_preinfeed_L3C3"],
+        ["mc20_preinfeed_L3C3", "mc20_preinfeed_L3C2"],
+        ["mc20_preinfeed_L3C2", "mc19_preinfeed"],
+        ["mc19_preinfeed", "mc18_preinfeed_L3C2"],
+        ["mc18_preinfeed_L3C2", "mc18_preinfeed_L3C1"],
+        ["mc18_preinfeed_L3C1", "mc17_preinfeed"],
+        ["mc17_preinfeed", "mc17_infeed"],
+        ["mc17_infeed", "mc17_dropping_zone"],
+        ["mc17_dropping_zone", "mc17_outfeed"],
+        ["mc17_outfeed", "mc17_post_outfeed"],
+        ["mc17_post_outfeed", "mc18_post_outfeed_L3C1"],
+        ["mc18_post_outfeed_L3C1", "mc18_post_outfeed_L3C2"],
+        ["mc18_post_outfeed_L3C2", "mc19_post_outfeed"],
+        ["mc19_post_outfeed", "mc20_post_outfeed_L3C2"],
+        ["mc20_post_outfeed_L3C2", "mc20_post_outfeed_L3C3"],
+        ["mc20_post_outfeed_L3C3", "mc21_post_outfeed"],
+        ["mc21_post_outfeed", "mc22_post_outfeed_L3C3"],
+        ["mc22_post_outfeed_L3C3", "L3C4_outfeed"],
+        ["L3C4_outfeed", "pre_taping"],
+        ["pre_taping", "l3_tapping_outfeed"],
+        ["l3_tapping_outfeed", "conveyor_to_highbay"],
+        ["conveyor_to_highbay", "check_weigher_rejection"],
+        
+        ["mc22_preinfeed_L3C3", "mc22_infeed"],
+        ["mc22_infeed", "mc22_dropping_zone"],
+        ["mc22_dropping_zone", "mc22_outfeed"],
+        ["mc22_outfeed", "mc22_post_outfeed_L3C3"],
+
+        ["mc21_preinfeed", "mc21_infeed"],
+        ["mc21_infeed", "mc21_dropping_zone"],
+        ["mc21_dropping_zone", "mc21_outfeed"],
+        ["mc21_outfeed", "mc21_post_outfeed"],
+
+        ["mc20_preinfeed_L3C2", "mc20_infeed"],
+        ["mc20_infeed", "mc20_dropping_zone"],
+        ["mc20_dropping_zone", "mc20_outfeed"],
+        ["mc20_outfeed", "mc20_post_outfeed_L3C2"],
+
+        ["mc19_preinfeed", "mc19_infeed"],
+        ["mc19_infeed", "mc19_dropping_zone"],
+        ["mc19_dropping_zone", "mc19_outfeed"],
+        ["mc19_outfeed", "mc19_post_outfeed"],
+        
+        ["mc18_preinfeed_L3C1", "mc18_infeed"],
+        ["mc18_infeed", "mc18_dropping_zone"],
+        ["mc18_dropping_zone", "mc18_outfeed"],
+        ["mc18_outfeed", "mc18_post_outfeed_L3C1"]
+    ],
+    "new_machines" : [
+        "machine_17", "machine_18",
+        "machine_19", "machine_20", 
+        "machine_21", "machine_22"
+    ],
+    "dependencies": [
+        ["machine_17", "mc17_preinfeed"],
+        ["machine_17", "mc17_infeed"],
+        ["machine_17", "mc17_dropping_zone"],
+        ["machine_17", "mc17_outfeed"],
+        ["machine_17", "mc17_post_outfeed"],
+        
+        ["machine_18", "mc18_preinfeed_L3C1"],
+        ["machine_18", "mc18_infeed"],
+        ["machine_18", "mc18_dropping_zone"],
+        ["machine_18", "mc18_outfeed"],
+        ["machine_18", "mc18_post_outfeed_L3C1"],
+
+        ["machine_19", "mc19_preinfeed"],
+        ["machine_19", "mc18_preinfeed_L3C2"],
+        ["machine_19", "mc19_infeed"],
+        ["machine_19", "mc19_dropping_zone"],
+        ["machine_19", "mc19_outfeed"],
+        ["machine_19", "mc18_post_outfeed_L3C2"],
+        ["machine_19", "mc19_post_outfeed"],
+
+        ["machine_20", "mc20_preinfeed_L3C2"],
+        ["machine_20", "mc20_infeed"],
+        ["machine_20", "mc21_infeed"],
+        ["machine_20", "mc20_outfeed"],
+        ["machine_20", "mc20_post_outfeed_L3C2"],
+
+        ["machine_21", "mc20_preinfeed_L3C3"],
+        ["machine_21", "mc20_post_outfeed_L3C3"],
+        ["machine_21", "mc21_preinfeed"],
+        ["machine_21", "mc21_infeed"],
+        ["machine_21", "mc21_dropping_zone"],
+        ["machine_21", "mc21_outfeed"],
+        ["machine_21", "mc21_post_outfeed"],
+
+        ["machine_22", "mc22_preinfeed_L3C3"],
+        ["machine_22", "mc22_infeed"],
+        ["machine_22", "mc22_dropping_zone"],
+        ["machine_22", "mc22_outfeed"],
+        ["machine_22", "mc22_post_outfeed_L3C3"]
+    ]
+}
+  

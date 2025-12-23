@@ -1,0 +1,58 @@
+################################################################################
+# SPDX-FileCopyrightText: Copyright (c) 2020-2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+################################################################################
+
+# The values in the config file are overridden by values set through GObject
+# properties.
+
+[property]
+enable=1
+#Width height used for configuration to which below configs are configured
+config-width=3840
+config-height=2160
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=2
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+
+#Loop 3 Taping Machine_View1	
+[roi-filtering-stream-0]
+enable = 1
+#roi-L3C4_infeed =3204;1446;681;1938;798;2151;1728;2154;3273;1614
+#roi-outfeed_L3L4_l3 = 444;1374;2346;1368;2502;1596;423;1827
+roi-pre_tap_l3 = 540;904;3656;900;3652;1764;536;1764
+
+[line-crossing-stream-0]
+enable=1
+class-id=0;1
+line-crossing-pre_taping_l3=2552;1268;1920;1296;2236;952;2280;1660
+
+#Loop 4 Taping Machine_View1	
+[roi-filtering-stream-1]
+enable = 1
+#roi-infeed_L4C4_l4 =201;231;3825;1140;3831;945;1629;111;555;6
+#roi-outfeed_L4C4_l4 = 876;531;2721;921;2751;1161;768;975
+roi-pre_tap_l4 = 376;556;3700;556;3700;1404;376;1404
+
+[line-crossing-stream-1]
+enable=1
+class-id=0;1
+line-crossing-pre_taping_l4=2608;988;2240;992;2448;776;2456;1236
+
+

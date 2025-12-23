@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    "case_erector_l4",
+    "highbay_l4",
+    "check_weigher_rejection_l4",
+    "case_erector_conveyor_l4",
+    "pre_taping_l4",
+    "mc25_outfeed",
+    "mc26_outfeed",
+    "mc27_outfeed",
+    "mc28_outfeed",
+    "mc30_outfeed",
+    "mc29_outfeed",
+    "l4_tapping_outfeed",
+    "l4_outfeed",
+    "mc25_infeed_jamming","mc26_infeed_jamming",
+    "mc27_infeed_jamming","mc28_infeed_jamming",
+    "mc29_infeed_jamming","mc30_infeed_jamming"
+
+  ]
+}
+
+

@@ -1,0 +1,20 @@
+[
+    { "label": "M25", "top": "0px", "left": "290px", "color": "#00FF00" },
+    { "label": "M26", "top": "0px", "left": "440px", "color": "#00FF00" },
+    { "label": "M27", "top": "0px", "left": "560px", "color": "#00FF00" },
+    { "label": "M28", "top": "0px", "left": "740px", "color": "#00FF00" },
+    { "label": "M29", "top": "0px", "left": "840px", "color": "#00FF00" },
+    { "label": "M30", "top": "0px", "left": "1050px", "color": "#00FF00" },
+    { "label": "TM4", "top": "0px", "left": "1220px", "color": "#00FF00" },
+    { "label": "CW4", "top": "0px", "left": "1500px", "color": "#00FF00" },
+    { "label": "CE4", "top": "118px", "left": "1570px", "color": "#00FF00" },
+    { "label": "CE3", "top": "262px", "left": "1592px", "color": "#00FF00" },
+    { "label": "M17", "top": "400px", "left": "240px", "color": "#00FF00" },
+    { "label": "M18", "top": "400px", "left": "440px", "color": "#00FF00" },
+    { "label": "M19", "top": "400px", "left": "560px", "color": "#00FF00" },
+    { "label": "M20", "top": "400px", "left": "740px", "color": "#00FF00" },
+    { "label": "M21", "top": "400px", "left": "840px", "color": "#00FF00" },
+    { "label": "M22", "top": "400px", "left": "1050px", "color": "#00FF00" },
+    { "label": "TM3", "top": "400px", "left": "1220px", "color": "#00FF00" },
+    { "label": "CW3", "top": "400px", "left": "1500px", "color": "#00FF00" }
+  ]

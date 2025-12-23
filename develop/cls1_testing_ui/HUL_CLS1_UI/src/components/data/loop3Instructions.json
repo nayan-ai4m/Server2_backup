@@ -1,0 +1,88 @@
+{
+
+  "machines": [
+        { "id": "MC 17", "status": "ok", "color": "green" },
+        { "id": "MC 18", "status": "warning", "color": "yellow" },
+        { "id": "MC 19", "status": "ok", "color": "green" },
+        { "id": "MC 20", "status": "error", "color": "red" },
+        { "id": "MC 21", "status": "pending", "color": "gray" },
+        { "id": "MC 22", "status": "ok", "color": "green" },
+        { "id": "Ck Wr", "status": "ok", "color": "green" },
+        { "id": "CE", "status": "ok", "color": "green" },
+        { "id": "Tp MC", "status": "ok", "color": "green" },
+        { "id": "Press", "status": "ok", "color": "green" },
+        { "id": "HighBay", "status": "unknown", "color": "purple" }
+      ],
+  "notifications": [
+    {
+      "id": "unique-notification-id-125",
+      "machine": "MC 17",
+      "message": "Routine maintenance check required",
+      "timer": "01:00",
+      "type": "Info"
+    },
+    {
+      "id": "unique-notification-id-126",
+      "machine": "MC 18",
+      "message": "Lubricate conveyor belt system",
+      "timer": "00:45",
+      "type": "Error"
+    },
+    {
+      "id": "unique-notification-id-127",
+      "machine": "MC 19",
+      "message": "Sensor calibration required",
+      "timer": "00:15",
+      "type": "Error"
+    },
+    {
+      "id": "unique-notification-id-128",
+      "machine": "MC 21",
+      "message": "Temperature above normal range",
+      "timer": "00:05",
+      "type": "Warning"
+    },
+    {
+      "id": "unique-notification-id-129",
+      "machine": "MC 22",
+      "message": "Pressure fluctuation detected",
+      "timer": "00:20",
+      "type": "Warning"
+    },
+    {
+      "id": "unique-notification-id-130",
+      "machine": "MC 22",
+      "message": "Pressure fluctuation detected",
+      "timer": "00:20",
+      "type": "Error"
+    },
+    {
+      "id": "unique-notification-id-131",
+      "machine": "MC 22",
+      "message": "Pressure fluctuation detected",
+      "timer": "00:20",
+      "type": "Warning"
+    },
+    {
+      "id": "unique-notification-id-132",
+      "machine": "MC 22",
+      "message": "Pressure fluctuation detected",
+      "timer": "00:20",
+      "type": "Warning"
+    }, {
+      "id": "unique-notification-id-133",
+      "machine": "MC 22",
+      "message": "Pressure fluctuation detected",
+      "timer": "00:20",
+      "type": "Info"
+    },
+    {
+      "id": "unique-notification-id-134",
+      "machine": "MC 22",
+      "message": "Pressure fluctuation detected",
+      "timer": "00:20",
+      "type": "Warning"
+    }
+  ]
+  
+}

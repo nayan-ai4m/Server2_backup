@@ -1,0 +1,20 @@
+{
+  "baseurl": "http://192.168.0.185:8000",
+  "baseWs": "ws://192.168.1.149:8000",
+  "baumer": "http://192.168.1.149:8003/bgr",
+  "streams": {
+    "3": {
+      "primary": "http://192.168.0.158/loop3",
+      "fallback": "http://192.168.0.158/loop3_1"
+    },
+    "4": {
+      "primary": "http://192.168.0.158/loop4",
+      "fallback": "http://192.168.0.158/loop4_1"
+    },
+    "default": {
+      "primary": "http://192.168.0.185:3006/loop3",
+      "fallback": "http://192.168.0.185:3007/loop3"
+    }
+}
+}
+

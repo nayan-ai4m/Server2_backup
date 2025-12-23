@@ -1,0 +1,96 @@
+{
+    "machines": [
+      {
+        "machine_id": "MC17",
+        "zmq_port": "5555",  
+        "output_dir": "slitting_mc17",
+        "zone": [[27, 505], [2007, 511], [2002, 987], [32, 959]],
+        "target_class": 6,
+        "batch_size": 40,
+        "tp_table": "mc17_tp_status",
+        "tp_column": "tp04",
+        "camera_id": "MC17",
+        "flip_frame": true
+      },
+      {
+        "machine_id": "MC18",
+        "zmq_port": "5563",  
+        "output_dir": "slitting_mc18",
+        "zone": [[24,280],[1524,276],[1528,620],[24,646]],
+        "target_class": 6,
+        "batch_size": 40,
+        "tp_table": "mc18_tp_status",
+        "tp_column": "tp04",
+        "camera_id": "MC18",
+        "flip_frame": true
+      },
+      {
+        "machine_id": "MC19",
+        "zmq_port": "5557",  
+        "output_dir": "slitting_mc19",
+        "zone": [[28, 346], [1494, 364], [1498, 864], [24, 857]],
+        "target_class": 6,
+        "batch_size": 40,
+        "tp_table": "mc19_tp_status",
+        "tp_column": "tp04",
+        "camera_id": "MC19",
+        "flip_frame": false
+      },
+      {
+        "machine_id": "MC20",
+        "zmq_port": "5558",  
+        "output_dir": "slitting_mc20",
+        "zone": [[14,57],[2022,85],[2014,657],[11,597]],
+        "target_class": 6,
+        "batch_size": 40,
+        "tp_table": "mc20_tp_status",
+        "tp_column": "tp04",
+        "camera_id": "MC20",
+        "flip_frame": true
+      },
+      {
+        "machine_id": "MC21",
+        "zmq_port": "5560",  
+        "output_dir": "perforation_mc21",
+        "zone": [[28, 123], [2005, 156], [2004, 774], [36, 722]],
+        "target_class": 6,
+        "batch_size": 40,
+        "tp_table": "mc21_tp_status",
+        "tp_column": "tp04",
+        "camera_id": "MC21",
+        "flip_frame": false      },
+      {
+        "machine_id": "MC22",
+        "zmq_port": "5559",  
+        "output_dir": "slitting_mc22",
+	"zone": [[14,191],[2025,162],[2020,654],[20,665]],
+        "target_class": 6,
+        "batch_size": 40,
+        "tp_table": "mc22_tp_status",
+        "tp_column": "tp04",
+        "camera_id": "MC22",
+        "flip_frame": true
+      }
+    ],
+    "model": {
+      "url": "100.103.195.124:8006",
+      "model_name": "sunsilk_black",
+      "input_size": 1280,
+      "conf_thresh": 0.3
+    },
+    "db": {
+      "tp_db": {
+        "host": "192.168.1.168",
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024"
+      },
+      "event_db": {
+        "host": "100.96.244.68",
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024"
+      }
+    }
+  }
+

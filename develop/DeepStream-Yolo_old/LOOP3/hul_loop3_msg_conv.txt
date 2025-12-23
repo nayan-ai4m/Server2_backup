@@ -1,0 +1,34 @@
+[sensor0]
+enable=1
+type=Camera
+id=17_18
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+[sensor1]
+enable=1
+type=Camera
+id=19_20
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+[sensor2]
+enable=1
+type=Camera
+id=21_22
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+
+#Taping_view2
+[sensor3]
+enable=1
+type=Camera
+id=l3_taping_back #l3_taping
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+

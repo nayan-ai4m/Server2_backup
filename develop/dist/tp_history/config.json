@@ -1,0 +1,127 @@
+{
+  "database": {
+    "dbname": "hul",
+    "dbname1": "sensor_db",
+    "user": "postgres",
+    "password": "ai4m2024",
+    "host": "192.168.1.168",
+    "port": "5432",
+    "connect_timeout": 5
+  },
+  "kafka": {
+    "l3": {
+      "bootstrap_servers": "192.168.1.149:9092",
+      "topic": "l3_stoppage_code"
+    },
+    "l4": {
+      "bootstrap_servers": "192.168.1.149:9092",
+      "topic": "l4_stoppage_code"
+    }
+  },
+  "setpoints": {
+    "machines": ["mc17", "mc18", "mc19", "mc20", "mc21", "mc22"],
+    "ver_seal_front_tags": [
+      "HMI_Ver_Seal_Front_1",
+      "HMI_Ver_Seal_Front_2",
+      "HMI_Ver_Seal_Front_3",
+      "HMI_Ver_Seal_Front_4",
+      "HMI_Ver_Seal_Front_5",
+      "HMI_Ver_Seal_Front_6",
+      "HMI_Ver_Seal_Front_7",
+      "HMI_Ver_Seal_Front_8",
+      "HMI_Ver_Seal_Front_9",
+      "HMI_Ver_Seal_Front_10",
+      "HMI_Ver_Seal_Front_11",
+      "HMI_Ver_Seal_Front_12",
+        "HMI_Ver_Seal_Front_13"
+    ],
+    "ver_seal_rear_tags": [
+        "HMI_Ver_Seal_Rear_14", "HMI_Ver_Seal_Rear_15",
+        "HMI_Ver_Seal_Rear_16", "HMI_Ver_Seal_Rear_17", "HMI_Ver_Seal_Rear_18",
+        "HMI_Ver_Seal_Rear_19", "HMI_Ver_Seal_Rear_20", "HMI_Ver_Seal_Rear_21",
+        "HMI_Ver_Seal_Rear_22", "HMI_Ver_Seal_Rear_23", "HMI_Ver_Seal_Rear_24",
+        "HMI_Ver_Seal_Rear_25", "HMI_Ver_Seal_Rear_26"
+    ],
+    "default_keys": [
+       "HMI_I_Stop", "HMI_I_Reset", "HMI_I_Start", "HMI_HOZ_OPEN_END",
+            "HMI_VER_OPEN_END", "HMI_HOZ_CLOSE_END", "HMI_VER_CLOSE_END",
+            "HMI_HOZ_OPEN_START", "HMI_VER_OPEN_START", "HMI_HOZ_CLOSE_START",
+            "HMI_VER_CLOSE_START", "HMI_Hopper_Low_Level", "HMI_Hopper_High_Level",
+            "HMI_Hor_Sealer_Strk_1", "HMI_Hor_Sealer_Strk_2", "HMI_Suction_Start_Deg",
+            "HMI_Ver_Sealer_Strk_1", "HMI_Ver_Sealer_Strk_2", "HMI_Filling_Stroke_Deg",
+            "HMI_Suction_End_Degree", "HMI_Hopper_Ex_Low_Level", "Hopper_Level_Percentage",
+            "HMI_Rot_Valve_Open_End_Deg", "HMI_Rot_Valve_Close_End_Deg",
+            "HMI_Rot_Valve_Open_Start_Deg", "HMI_Rot_Valve_Close_Start_Deg",
+            "HMI_Ver_Seal_Front_1", "HMI_Ver_Seal_Front_2", "HMI_Ver_Seal_Front_3",
+            "HMI_Ver_Seal_Front_4", "HMI_Ver_Seal_Front_5", "HMI_Ver_Seal_Front_6",
+            "HMI_Ver_Seal_Front_7", "HMI_Ver_Seal_Front_8", "HMI_Ver_Seal_Front_9",
+            "HMI_Ver_Seal_Front_10", "HMI_Ver_Seal_Front_11", "HMI_Ver_Seal_Front_12",
+            "HMI_Ver_Seal_Front_13", "HMI_Ver_Seal_Rear_14", "HMI_Ver_Seal_Rear_15",
+            "HMI_Ver_Seal_Rear_16", "HMI_Ver_Seal_Rear_17", "HMI_Ver_Seal_Rear_18",
+            "HMI_Ver_Seal_Rear_19", "HMI_Ver_Seal_Rear_20", "HMI_Ver_Seal_Rear_21",
+            "HMI_Ver_Seal_Rear_22", "HMI_Ver_Seal_Rear_23", "HMI_Ver_Seal_Rear_24",
+            "HMI_Ver_Seal_Rear_25", "HMI_Ver_Seal_Rear_26",
+            "HMI_Hor_Seal_Front_27", "HMI_Hor_Seal_Rear_28", "HMI_Filling_Start_Deg",
+            "HMI_Rot_Valve_Close_End_Deg", "HMI_Rot_Valve_Close_Start_Deg", "HMI_Rot_Valve_Open_End_Deg",
+            "HMI_Rot_Valve_Open_Start_Deg", "HMI_Rot_Valve_Stroke","HMI_Hopper_2_Low_Level", "HMI_Hopper_2_High_Level",
+            "HMI_Hopper_2_Ex_Low_Level", "Hopper_2_Level_Percentage","HMI_Puller_Start_Deg","HMI_Puller_Stop_Deg","HMI_Filling_Start_Deg1","HMI_Suction_Start_Deg1","HMI_Suction_End_Degree1","HMI_Filling_Stroke_Deg1"
+    ],
+    "mc18_special_tags": {
+        "HMI_Hor_Seal_Rear_35": "HMI_Hor_Seal_Front_27",
+        "HMI_Hor_Seal_Rear_36": "HMI_Hor_Seal_Rear_28",
+        "HMI_Hopper_1_Low_Level": "HMI_Hopper_Low_Level",
+        "HMI_Hopper_1_High_Level":"HMI_Hopper_High_Level",
+        "HMI_Hopper_1_Ex_Low_Level":"HMI_Hopper_Ex_Low_Level",
+        "Hopper_1_Level_Percentage":"Hopper_Level_Percentage",
+        "HMI_Hopper_2_Low_Level" : "HMI_Hopper_2_Low_Level",
+        "HMI_Hopper_2_High_Level" : "HMI_Hopper_2_High_Level",
+        "HMI_Hopper_2_Ex_Low_Level" : "HMI_Hopper_2_Ex_Low_Level",
+        "Hopper_2_Level_Percentage" : "Hopper_2_Level_Percentage",
+        "HMI_Filling_Start_Deg1" : "HMI_Filling_Start_Deg1",
+        "HMI_Suction_Start_Deg1" : "HMI_Suction_Start_Deg1",
+        "HMI_Suction_End_Degree1" : "HMI_Suction_End_Degree1",
+        "HMI_Filling_Stroke_Deg1" : "HMI_Filling_Stroke_Deg1"
+    },
+    "mc19_22_special_tags": {
+      "HMI_Ver_Seal_Rear_27": "HMI_Hor_Seal_Front_27",
+      "HMI_Ver_Seal_Rear_28": "HMI_Hor_Seal_Rear_28"
+    }
+  },
+  "suggestions_alerts": {
+    "machines": ["mc17", "mc18", "mc19", "mc20", "mc21", "mc22","mc25", "mc26", "mc27", "mc28", "mc29", "mc30"],
+    "quality_tps": ["TP61", "TP62", "TP69", "TP71", "TP72"],
+    "breakdown_tps": ["TP16", "TP44"],
+    "productivity_tps": [
+      "TP08", "TP09", "TP10", "TP11", "TP12", "TP13", "TP14", "TP15",
+      "TP42", "TP43", "TP24", "TP25", "TP30", "TP31", "TP41", "TP48",
+      "TP49", "TP28", "TP29", "TP32", "TP40"
+    ]
+  },
+  "shifts": [
+    {
+      "name": "Shift_1",
+      "start_hour": 7,
+      "end_hour": 15,
+      "cld_count_key": "cld_count_a",
+      "cld_key": "cld_a"
+    },
+    {
+      "name": "Shift_2",
+      "start_hour": 15,
+      "end_hour": 23,
+      "cld_count_key": "cld_count_b",
+      "cld_key": "cld_b"
+    },
+    {
+      "name": "Shift_3",
+      "start_hour": 23,
+      "end_hour": 7,
+      "cld_count_key": "cld_count_c",
+      "cld_key": "cld_c"
+    }
+  ],
+  "machines": {
+    "cld_count": ["mc25", "mc26", "mc27", "mc30"],
+    "cld": ["mc28", "mc29"]
+  }
+}

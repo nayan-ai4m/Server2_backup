@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "Sunsilk Black",
+    "imageUrl": "/sunsilk_black.png",
+    "skuCodes": ["SSB1RSSF68436937", "SKBF3R5", "SKBF4R2"]
+  },
+  {
+    "id": 2,
+    "name": "Sunsilk Pink",
+    "imageUrl": "/sunsilk_pink.png",
+    "skuCodes": ["SSP1RSSF68810922", "SKPG1R0", "SSFL2R4", "SSFL2R2"]
+  },
+  {
+    "id": 3,
+    "name": "Clinic Plus",
+    "imageUrl": "/clinic_plus_strong_and_long.png",
+    "skuCodes": [
+      "CP1RSSFG69785815",
+      "CLAB1R6",
+      "CLPA2R6",
+      "CLAB1R5",
+      "CLPA2R4",
+      "CLPA3R0",
+      "CLPA3R2"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dove Daily Shine",
+    "imageUrl": "/dove_daily_shine.png",
+    "skuCodes": [
+      "DVSC2R5",
+      "DVWA2R8",
+      "DVUM1R1",
+      "DVWA3R3",
+      "DVVA2R8",
+      "DVVA3R3"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dove Hairfall Rescue",
+    "imageUrl": "/dove_hairfall_rescue.png",
+    "skuCodes": ["DVSBPR0", "DVSA3R8", "DVSB3R2", "DVSA4R0"]
+  },
+  {
+    "id": 6,
+    "name": "Tresemme Black",
+    "imageUrl": "/tresemme_black.png",
+    "skuCodes": ["TRSH1R5", "TRSH1R4"]
+  },
+  {
+    "id": 7,
+    "name": "Tresemme Royal",
+    "imageUrl": "/tresemme_red.png",
+    "skuCodes": ["TRRY100"]
+  },
+  {
+    "id": 8,
+    "name": "Dove Anti Dandruff",
+    "imageUrl": "/dove_anti_dandruff_solutions.png",
+    "skuCodes": ["DVS1R1", "DVVS1R3"]
+  },
+  {
+    "id": 9,
+    "name": "Tresemme Smooth & Shine",
+    "imageUrl": "/tresemme_smooth_and_shine.jpg",
+    "skuCodes": ["TRSH1R3", "TRRY1R0"]
+  },
+  {
+    "id": 10,
+    "name": "Dove Dandruff Care",
+    "imageUrl": "/dove_dandruff_care.png",
+    "skuCodes": ["DVSC3R0", "DVSE3R0"]
+  },
+  {
+    "id": 11,
+    "name": "Tresemme Keratin Smooth",
+    "imageUrl": "/ptresemme_keratin_smooth.png",
+    "skuCodes": ["TRSI1R3", "TRSI1R1"]
+  },
+  {
+    "id": 12,
+    "name": "Clinic Plus Egg",
+    "imageUrl": "/clinic_plus_egg_protein.png",
+    "skuCodes": ["CLSE1R4", "CLSE1R5", "CLPE1R2"]
+  }
+]

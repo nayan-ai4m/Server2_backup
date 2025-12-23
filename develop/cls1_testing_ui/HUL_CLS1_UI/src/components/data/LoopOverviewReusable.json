@@ -1,0 +1,66 @@
+{
+  "cards": [
+    {
+      "title": "CLD Production",
+      "valueKey": "cld_production",
+      "color": "#00FF00"
+    },
+    {
+      "title": "Taping Machine",
+      "valueKey": "taping_machine",
+      "isBoolean": true,
+      "trueText": "Running",
+      "falseText": "Stopped",
+      "offlineText": "Offline",
+      "trueColor": "#00FF00",
+      "falseColor": "#FF0000",
+      "offlineColor": "#808080"
+    },
+    {
+      "title": "Checkweigher EGA",
+      "valueKeys": {
+        "checkweigher": "checkweigher",
+        "ega": "ega"
+      },
+      "format": "{checkweigher} {ega}%",
+      "color": "#FF9832",
+      "trueText": "Running",
+      "falseText": "Stopped",
+      "offlineText": "Offline",
+      "trueColor": "#00FF00",
+      "falseColor": "#FF0000",
+      "offlineColor": "#808080",
+      "onClick": "handleEGAClick"
+    },
+    {
+      "title": "Case Erector",
+      "valueKey": "case_erector",
+      "isBoolean": true,
+      "trueText": "Running",
+      "falseText": "Stopped",
+      "offlineText": "Offline",
+      "trueColor": "#00FF00",
+      "falseColor": "#FF0000",
+      "offlineColor": "#808080",
+      "onClick": "handleCaseErectorClick"
+    },
+    {
+      "title": "Actual Bulk Available",
+      "fields": [
+        {
+          "label": "Primary Tank",
+          "valueKey": "primary_tank_level",
+          "colorFunction": true,
+          "suffix": " m"
+        },
+        {
+          "label": "Secondary Tank",
+          "valueKey": "secondary_tank_level",
+          "colorFunction": true,
+          "suffix": " m"
+        }
+      ],
+      "onClick": "handleTankLevelClick"
+    }
+  ]
+}

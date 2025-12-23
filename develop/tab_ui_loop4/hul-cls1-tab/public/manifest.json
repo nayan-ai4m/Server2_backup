@@ -1,0 +1,15 @@
+{
+  "short_name": "HUL Tab UI",
+  "name": "HUL CLS1 TAB UI L4",
+  "icons": [
+    {
+      "src": "ai4m_dark.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#2c2e34"
+}

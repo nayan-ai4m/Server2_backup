@@ -1,0 +1,1 @@
+right_bad_orientation_sleeping;right_bad_orientation_standing;right_good_orientation_sleeping;right_good_orientation_standing

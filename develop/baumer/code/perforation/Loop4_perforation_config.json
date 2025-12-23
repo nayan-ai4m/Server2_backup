@@ -1,0 +1,98 @@
+{
+  "base_url": "http://192.168.0.185:8015",
+  "machines": [
+    {
+      "machine_id": "MC25",
+      "zmq_port": "5564",
+      "output_dir": "perforation_mc25",
+      "zone": [[30,307],[2017,361],[2013,551],[24,478]],
+      "target_class": 0,
+      "batch_size": 40,
+      "tp_table": "mc25_tp_status",
+      "tp_column": "tp18",
+      "camera_id": "MC25",
+      "flip_frame": true
+    },
+    {
+      "machine_id": "MC26",
+      "zmq_port": "5561",
+      "output_dir": "perforation_mc26",
+      "zone": [[20, 329], [2011, 329], [2022, 521], [27, 593]],
+      "target_class": 0,
+      "batch_size": 40,
+      "tp_table": "mc26_tp_status",
+      "tp_column": "tp18",
+      "camera_id": "MC26",
+      "flip_frame": true
+    },
+    {
+      "machine_id": "MC27",
+      "zmq_port": "5569",
+      "output_dir": "perforation_mc27",
+      "zone": [ [108, 27], [2017, 25], [2019, 233], [117, 221]],
+      "target_class": 0,
+      "batch_size": 40,
+      "tp_table": "mc27_tp_status",
+      "tp_column": "tp18",
+      "camera_id": "MC27",
+      "flip_frame": true
+    },
+    {
+      "machine_id": "MC28",
+      "zmq_port": "5568",
+      "output_dir": "perforation_mc28",
+      "zone": [[60,108],[2017,102],[2031,408],[34,425]],
+      "target_class": 0,
+      "batch_size": 40,
+      "tp_table": "mc28_tp_status",
+      "tp_column": "tp18",
+      "camera_id": "MC28",
+      "flip_frame": false
+    },
+    {
+      "machine_id": "MC29",
+      "zmq_port": "5566",
+      "output_dir": "perforation_mc29",
+      "zone": [[32, 105], [2024, 115], [2033, 324], [34, 287]],
+      "target_class": 0,
+      "batch_size": 40,
+      "tp_table": "mc29_tp_status",
+      "tp_column": "tp18",
+      "camera_id": "MC29",
+      "flip_frame": true
+    },
+    {
+      "machine_id": "MC30",
+      "zmq_port": "5567",
+      "output_dir": "perforation_mc30",
+      "zone": [[132,406],[1918,556],[1916,772],[114,616]],
+      "target_class": 0,
+      "batch_size": 40,
+      "tp_table": "mc30_tp_status",
+      "tp_column": "tp18",
+      "camera_id": "MC30",
+      "flip_frame": false
+    }
+  ],
+  "model": {
+    "url": "100.103.195.124:8006",
+    "model_name": "white_sachet",
+    "input_size": 1280,
+    "conf_thresh": 0.3
+  },
+  "db": {
+    "tp_db": {
+      "host": "192.168.1.168",
+      "dbname": "hul",
+      "user": "postgres",
+      "password": "ai4m2024"
+    },
+    "event_db": {
+      "host": "100.96.244.68",
+      "dbname": "hul",
+      "user": "postgres",
+      "password": "ai4m2024"
+    }
+  }
+}
+

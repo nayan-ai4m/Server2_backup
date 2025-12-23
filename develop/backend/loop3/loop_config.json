@@ -1,0 +1,38 @@
+{
+    "database": 
+    {
+        "read": {
+            "host": "100.96.244.68",
+            "database": "hul",
+            "user": "postgres",
+            "password": "ai4m2024"
+        },
+        "write": {
+            "host": "192.168.1.168",
+            "database": "hul",
+            "user": "postgres",
+            "password": "ai4m2024"
+        }
+    },
+    "shifts": {
+        "A": {
+            "name": "Shift_1",
+            "loop3_name" : "Shift_1_Data",
+            "start_hour": 7,
+            "end_hour": 15
+        },
+        "B": {
+            "name": "Shift_2",
+            "loop3_name" : "Shift_2_Data",
+            "start_hour": 15,
+            "end_hour": 23
+        },
+        "C": {
+            "name": "Shift_3",
+            "loop3_name" : "Shift_3_Data",
+            "start_hour": 23,
+            "end_hour": 7
+        }
+    }
+}
+

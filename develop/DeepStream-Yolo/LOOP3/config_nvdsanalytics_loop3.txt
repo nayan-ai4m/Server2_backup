@@ -1,0 +1,122 @@
+################################################################################
+# SPDX-FileCopyrightText: Copyright (c) 2020-2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+################################################################################
+
+# The values in the config file are overridden by values set through GObject
+# properties.
+
+[property]
+enable=1
+#Width height used for configuration to which below configs are configured
+config-width=3840
+config-height=2160
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=2
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+
+## Per stream configuration
+[roi-filtering-stream-0]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-mc17_outfeed = 2132;408;2532;436;2604;932;2372;908;2376;736;2128;708
+roi-mc18_outfeed = 2092;416;2084;708;1864;700;1832;868;1568;844;1708;384
+roi-mc18_infeed_lh = 1668;500;1544;980;1220;940;1396;488
+roi-mc17_infeed_rh = 2568;488;2836;504;2968;996;2652;968
+roi-mc18_infeed_jamming = 1392;256;1728;300;1512;1080;1132;1048
+roi-mc17_infeed_jamming = 2548;308;2860;340;3068;1216;2692;1192 
+#remove objects in the ROI
+inverse-roi=0
+class-id=0
+
+
+[line-crossing-stream-0]
+enable=1
+class-id=0
+line-crossing-mc17_cld=2698;642;2726;784;2644;706;2786;726
+line-crossing-mc18_cld=1512;628;1486;730;1426;666;1560;676
+
+
+
+## Per stream configuration
+[roi-filtering-stream-1]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-mc20_outfeed = 1350;564;1749;564;1740;804;1497;801;1470;1032;1233;1026
+roi-mc19_outfeed = 1890;555;2319;552;2445;999;2217;1020;2163;804;1896;801
+#roi-mc20_infeed_lh = 1041;603;1335;588;1185;1125;867;1128
+roi-mc20_infeed_lh = 1286;770;1151;1190;820;1174;962;778
+#roi-mc19_infeed_rh = 2346;570;2631;567;2823;1092;2520;1092
+roi-mc19_infeed_rh = 2377;729;2697;720;2862;1130;2505;1192
+roi-mc20_infeed_jamming = 1384;400;1124;1412;740;1376;1080;416
+roi-mc19_infeed_jamming = 2572;408;2988;1312;2552;1340;2284;404
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+
+[line-crossing-stream-1]
+enable=1
+class-id=0
+line-crossing-mc19_cld=2460;597;2552;824;2362;703;2717;704
+line-crossing-mc20_cld=1176;619;1119;843;1006;720;1329;721
+
+
+## Per stream configuration
+[roi-filtering-stream-2]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-mc22_infeed_lh = 1076;808;1404;792;1314;1210;934;1192
+roi-mc22_outfeed = 1443;654;1872;642;1872;927;1599;906;1572;1095;1330;1101
+roi-mc21_outfeed = 1980;660;2433;648;2586;1116;2328;1104;2250;888;2001;900
+#roi-mc21_infeed_rh = 2439;621;2715;603;2991;1122;2640;1161
+roi-mc21_infeed_rh = 2801;706;3000;1160;2638;1216;2476;739
+roi-mc22_infeed_jamming = 1468;488;1232;1580;804;1520;1164;500
+roi-mc21_infeed_jamming = 2668;456;3096;1364;2700;1404;2404;468
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+[line-crossing-stream-2]
+enable=1
+class-id=0
+line-crossing-mc21_cld=1310;673;1243;884;2398;817;2849;786
+line-crossing-mc22_cld=2553;633;2646;853;1093;802;1461;792
+
+
+## Taping View 2
+[roi-filtering-stream-3]
+#enable or disable following feature
+enable=1
+#ROI to filter select objects, and remove from meta data
+roi-l3_tapping_outfeed=2715;555;2976;552;3030;1272;2706;1260
+roi-l3_outfeed=477;621;1035;24;1317;66;741;717
+#remove objects in the ROI
+inverse-roi=0
+class-id=-1
+
+
+[line-crossing-stream-3]
+enable=1
+class-id=0
+#line-crossing-l3_tapping=2654;806;2668;964;2542;878;2764;882
+line-crossing-l3_tapping=2861;773;2864;913;2789;839;2941;837

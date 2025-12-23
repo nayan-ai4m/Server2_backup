@@ -1,0 +1,231 @@
+{
+    "cameras": {
+        "mc25": {
+            "input_dir": "baumer_images_180",
+            "output_dir": "/home/ai4m/develop/data/baumer",
+            "models": {
+                "white_sachet": {
+                    "url": "0.0.0.0:8006",
+                    "model_name": "white_sachet",
+                    "size": 1280,
+                    "threshold": 0.25,
+                    "classes": {
+                        "0": ["redtape", [0, 0, 255]],
+                        "1": ["eyemark", [0, 255, 0]],
+                        "2": ["slitting_cut", [255, 0, 255]],
+                        "3": ["perforation_good", [0, 255, 255]],
+                        "4": ["matte-on-belt", [0, 255, 255]],
+                        "6": ["slitting", [255, 0, 255]],
+                        "7": ["wrinkle", [0, 255, 255]],
+                        "9": ["perforation_bad", [0, 255, 255]]
+                    }
+                }
+            },
+            "database": {
+                "host": "192.168.1.168",
+                "port": 5432,
+                "dbname": "hul",
+                "user": "postgres",
+                "password": "ai4m2024",
+                "sslmode": "disable",
+                "table": "mc25_tp_status"
+            },
+            "zone": [298, 341, 1373, 412],
+            "eyemark_threshold": 5,
+            "zmq": {
+                "address": "tcp://localhost:5564"
+            },
+            "event_mapping": {
+                "eyemark_shift": "Vertical Eyemark Shift Detected",
+                "redtape": "Redtape Detected",
+                "perforation_missing": "Bad Perforation Detected",
+                "wrinkle": "Wrinkle Detected"
+            },
+            "filepath_url_prefix": "http://192.168.0.185:8015"
+        },
+        "mc26": {
+            "input_dir": "baumer_images_180",
+            "output_dir": "/home/ai4m/develop/data/baumer",
+            "models": {
+                "white_sachet": {
+                    "url": "0.0.0.0:8006",
+                    "model_name": "white_sachet",
+                    "size": 1280,
+                    "threshold": 0.25,
+                    "classes": {
+                        "0": ["redtape", [0, 0, 255]],
+                        "1": ["eyemark", [0, 255, 0]],
+                        "2": ["slitting_cut", [255, 0, 255]],
+                        "3": ["perforation_good", [0, 255, 255]],
+                        "4": ["matte-on-belt", [0, 255, 255]],
+                        "6": ["slitting", [255, 0, 255]],
+                        "7": ["wrinkle", [0, 255, 255]],
+                        "9": ["perforation_bad", [0, 255, 255]]
+                    }
+                }
+            },
+            "database": {
+                "host": "192.168.1.168",
+                "port": 5432,
+                "dbname": "hul",
+                "user": "postgres",
+                "password": "ai4m2024",
+                "sslmode": "disable",
+                "table": "mc26_tp_status"
+            },
+            "zone": [490, 416, 1502, 496],
+            "eyemark_threshold": 5,
+            "zmq": {
+                "address": "tcp://localhost:5561"
+            },
+            "event_mapping": {
+                "eyemark_shift": "Vertical Eyemark Shift Detected",
+                "redtape": "Redtape Detected",
+                "perforation_missing": "Bad Perforation Detected",
+                "wrinkle": "Wrinkle Detected"
+            },
+            "filepath_url_prefix": "http://192.168.0.185:8015"
+        },
+         "mc28": {
+            "input_dir": "baumer_images_180",
+            "output_dir": "/home/ai4m/develop/data/baumer",
+            "models": {
+                "white_sachet": {
+                    "url": "0.0.0.0:8006",
+                    "model_name": "white_sachet",
+                    "size": 1280,
+                    "threshold": 0.25,
+                    "classes": {
+                        "0": ["redtape", [0, 0, 255]],
+                        "1": ["eyemark", [0, 255, 0]],
+                        "2": ["slitting_cut", [255, 0, 255]],
+                        "3": ["perforation_good", [0, 255, 255]],
+                        "4": ["matte-on-belt", [0, 255, 255]],
+                        "6": ["slitting", [255, 0, 255]],
+                        "7": ["wrinkle", [0, 255, 255]],
+                        "9": ["perforation_bad", [0, 255, 255]]
+                    }
+                }
+            },
+            "database": {
+                "host": "192.168.1.168",
+                "port": 5432,
+                "dbname": "hul",
+                "user": "postgres",
+                "password": "ai4m2024",
+                "sslmode": "disable",
+                "table": "mc28_tp_status"
+            },
+            "zone": [792, 164, 1826, 266],
+            "eyemark_threshold": 5,
+            "zmq": {
+                "address": "tcp://localhost:5568"
+            },
+            "event_mapping": {
+                "eyemark_shift": "Vertical Eyemark Shift Detected",
+                "redtape": "Redtape Detected",
+                "perforation_missing": "Bad Perforation Detected",
+                "wrinkle": "Wrinkle Detected"
+            },
+            "filepath_url_prefix": "http://192.168.0.185:8015"
+        },
+        "mc29": {
+            "input_dir": "baumer_images_180",
+            "output_dir": "/home/ai4m/develop/data/baumer",
+            "models": {
+                "white_sachet": {
+                    "url": "0.0.0.0:8006",
+                    "model_name": "white_sachet",
+                    "size": 1280,
+                    "threshold": 0.25,
+                    "classes": {
+                        "0": ["redtape", [0, 0, 255]],
+                        "1": ["eyemark", [0, 255, 0]],
+                        "2": ["slitting_cut", [255, 0, 255]],
+                        "3": ["perforation_good", [0, 255, 255]],
+                        "4": ["matte-on-belt", [0, 255, 255]],
+                        "6": ["slitting", [255, 0, 255]],
+                        "7": ["wrinkle", [0, 255, 255]],
+                        "9": ["perforation_bad", [0, 255, 255]]
+                    }
+                }
+            },
+            "database": {
+                "host": "192.168.1.168",
+                "port": 5432,
+                "dbname": "hul",
+                "user": "postgres",
+                "password": "ai4m2024",
+                "sslmode": "disable",
+                "table": "mc29_tp_status"
+            },
+            "zone": [334, 160, 1696, 246],
+            "eyemark_threshold": 5,
+            "zmq": {
+                "address": "tcp://localhost:5566"
+            },
+            "event_mapping": {
+                "eyemark_shift": "Vertical Eyemark Shift Detected",
+                "redtape": "Redtape Detected",
+                "perforation_missing": "Bad Perforation Detected",
+                "wrinkle": "Wrinkle Detected"
+            },
+            "filepath_url_prefix": "http://192.168.0.185:8015"
+        },
+        "mc30": {
+            "input_dir": "baumer_images_180",
+            "output_dir": "/home/ai4m/develop/data/baumer",
+            "models": {
+                "white_sachet": {
+                    "url": "0.0.0.0:8006",
+                    "model_name": "white_sachet",
+                    "size": 1280,
+                    "threshold": 0.25,
+                    "classes": {
+                        "0": ["redtape", [0, 0, 255]],
+                        "1": ["eyemark", [0, 255, 0]],
+                        "2": ["slitting_cut", [255, 0, 255]],
+                        "3": ["perforation", [0, 255, 255]],
+                        "4": ["matte-on-belt", [0, 255, 255]],
+                        "6": ["slitting", [255, 0, 255]],
+                        "7": ["wrinkle", [255, 0, 255]],
+                        "9": ["perforation_bad", [0, 255, 255]]
+                    }
+                }
+            },
+            "database": {
+                "host": "192.168.1.168",
+                "port": 5432,
+                "dbname": "hul",
+                "user": "postgres",
+                "password": "ai4m2024",
+                "sslmode": "disable",
+                "table": "mc30_tp_status"
+            },
+            "zone": [6, 538, 1494, 636],
+            "eyemark_threshold": 5,
+            "zmq": {
+                "address": "tcp://localhost:5567"
+            },
+            "event_mapping": {
+                "eyemark_shift": "Vertical Eyemark Shift Detected",
+                "redtape": "Redtape Detected",
+                "perforation_missing": "Bad Perforation Detected",
+                "wrinkle": "Wrinkle Detected"
+            },
+            "filepath_url_prefix": "http://192.168.0.185:8015",
+            "perforation_classifier": {
+                "url": "0.0.0.0:9002",
+                "model_name": "perforation_classify",
+                "class_names": ["bad", "good"],
+                "confidence_threshold": 0.50
+            },
+            "hsv_params": {
+                "lower": [0, 100, 100],
+                "upper": [10, 255, 255],
+                "min_contour_area": 1500
+            },
+            "horizontal_zone": [1160, 524, 1434, 1458]
+        }
+    }
+}

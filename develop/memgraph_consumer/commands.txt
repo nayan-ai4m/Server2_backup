@@ -1,0 +1,14 @@
+# Run Memgraph Lab
+podman run -d -p 3001:3000 --name lab memgraph/lab
+
+# Run Memgraph 
+podman run -p 7687:7687 -p 7444:7444 --name memgraph memgraph/memgraph
+
+# Run Podman for Memegraph code
+podman run -p 7687:7687 -p 7444:7444 -v mg_lib:/var/lib/memgraph -v mg_log:/var/log/memgraph -v mg_etc:/etc/memgraph --name memgraph memgraph/memgraph
+
+# Run Deepstream
+podman run --rm -it --net host --shm-size 22g --name l3_memgraph -v $(pwd)/:/home/genai -e DISPLAY=$DISPLAY -w /home/genai localhost/run_memgraph:v1
+
+# Kafka Podman
+podman run --rm -it --net host docker.io/apache/kafka-native:latest

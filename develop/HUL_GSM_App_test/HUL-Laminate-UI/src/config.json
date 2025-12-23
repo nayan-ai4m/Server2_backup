@@ -1,0 +1,19 @@
+{
+  "baseurl": "https://192.168.0.185",
+  "baseWs": "ws://192.168.1.149:8000",
+  "baumer": "http://192.168.1.149:8003/bgr",
+  "streams": {
+    "3": {
+      "primary": "http://192.168.0.173/loop3",
+      "fallback": "http://192.168.1.149:3002/loop3"
+    },
+    "4": {
+      "primary": "http://192.168.0.173/loop4",
+      "fallback": "http://192.168.1.149:3003/loop4"
+    },
+    "default": {
+      "primary": "http://localhost:3006/loop3",
+      "fallback": "http://localhost:3007/loop3"
+    }
+  }
+}

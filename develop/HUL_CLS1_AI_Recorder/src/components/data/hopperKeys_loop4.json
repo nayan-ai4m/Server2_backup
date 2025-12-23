@@ -1,0 +1,30 @@
+{
+  "dual_hopper": {
+    "machines": ["mc25", "mc26"],
+    "levels": [
+      { "name": "Hopper Left Low Level", "keys": ["hopper_left_low_level"] },
+      { "name": "Hopper Left High Level", "keys": ["hopper_left_high_level"] },
+      {
+        "name": "Hopper Left Ext Low Level",
+        "keys": ["hopper_left_extreme_low_level"]
+      },
+      { "name": "Hopper Right Low Level", "keys": ["hopper_right_low_level"] },
+      { "name": "Hopper Right High Level", "keys": ["hopper_right_high_level"] },
+      {
+        "name": "Hopper Right Ext Low Level",
+        "keys": ["hopper_right_extreme_low_level"]
+      }
+    ]
+  },
+  "single_hopper": {
+    "machines": ["mc27", "mc28", "mc29", "mc30"],
+    "levels": [
+      { "name": "Hopper Low Level", "keys": ["hopper_low_level"] },
+      { "name": "Hopper High Level", "keys": ["hopper_high_level"] },
+      {
+        "name": "Hopper Ext Low Level",
+        "keys": ["hopper_extreme_low_level"]
+      }
+    ]
+  }
+}

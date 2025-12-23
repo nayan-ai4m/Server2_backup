@@ -1,0 +1,90 @@
+{
+    "machines": [
+      {
+        "machine_id": "MC17",
+        "zmq_port": "5555",  
+        "output_dir": "perforation_mc17",
+        "zone": [ [24,345],[2028,345],[2028,594],[24,594]],
+        "target_class": 0,
+        "batch_size": 30,
+        "tp_table": "mc17_tp_status",
+        "tp_column": "tp18",
+        "camera_id": "MC17"
+      },
+      {
+        "machine_id": "MC18",
+        "zmq_port": "5563",  
+        "output_dir": "perforation_mc18",
+        "zone": [[21, 228],[1506, 233],[1517, 376],[19, 387]],
+        "target_class": 0,
+        "batch_size": 30,
+        "tp_table": "mc18_tp_status",
+        "tp_column": "tp18",
+        "camera_id": "MC18"
+      },
+      {
+        "machine_id": "MC19",
+        "zmq_port": "5557",  
+        "output_dir": "perforation_mc19",
+        "zone": [[6,312],[1530,312],[1530,522],[6,522]],
+        "target_class": 0,
+        "batch_size": 30,
+        "tp_table": "mc19_tp_status",
+        "tp_column": "tp18",
+        "camera_id": "MC19"
+      },
+      {
+        "machine_id": "MC20",
+        "zmq_port": "5558",  
+        "output_dir": "perforation_mc20",
+        "zone": [ [21,33],[2034,33],[2034,276],[21,276]],
+        "target_class": 0,
+        "batch_size": 30,
+        "tp_table": "mc20_tp_status",
+        "tp_column": "tp18",
+        "camera_id": "MC20"
+      },
+      {
+        "machine_id": "MC21",
+        "zmq_port": "5560",  
+        "output_dir": "perforation_mc21",
+        "zone": [[21, 228],[1506, 233],[1517, 376],[19, 387]],
+        "target_class": 0,
+        "batch_size": 30,
+        "tp_table": "mc21_tp_status",
+        "tp_column": "tp18",
+        "camera_id": "MC21"
+      },
+      {
+        "machine_id": "MC22",
+        "zmq_port": "5559",  
+        "output_dir": "perforation_mc22",
+        "zone": [[21,63],[2040,63],[2040,291],[21,291]],
+        "target_class": 0,
+        "batch_size": 30,
+        "tp_table": "mc22_tp_status",
+        "tp_column": "tp18",
+        "camera_id": "MC22"
+      }
+    ],
+    "model": {
+      "url": "100.103.195.124:8006",
+      "model_name": "pink_sachet",
+      "input_size": 1280,
+      "conf_thresh": 0.5
+    },
+    "db": {
+      "tp_db": {
+        "host": "192.168.1.168",
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024"
+      },
+      "event_db": {
+        "host": "100.96.244.68",
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024"
+      }
+    }
+  }

@@ -1,0 +1,246 @@
+{
+    "loops": {
+      "3": {
+        "machineDots": [
+          {
+            "id": "MC 17",
+            "roman": "I"
+          },
+          {
+            "id": "MC 18",
+            "roman": "II"
+          },
+          {
+            "id": "MC 19",
+            "roman": "III"
+          },
+          {
+            "id": "MC 20",
+            "roman": "IV"
+          },
+          {
+            "id": "MC 21",
+            "roman": "V"
+          },
+          {
+            "id": "MC 22",
+            "roman": "VI"
+          },
+          {
+            "id": "Tp MC 3",
+            "roman": "VII"
+          },
+          {
+            "id": "CE 3",
+            "roman": "VIII"
+          },
+          {
+            "id": "Ck Wr 3",
+            "roman": "IX"
+          },
+          {
+            "id": "HighBay 3",
+            "roman": "X"
+          },
+          {
+            "id": "",
+            "roman": "XI"
+          }
+        ],
+        "backgroundImage": "loop3Diagram.png",
+        "machineNumbers": [
+          {
+            "id": "MC 17",
+            "display": "M17",
+            "left": "16rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 18",
+            "display": "M18",
+            "left": "37rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 19",
+            "display": "M19",
+            "left": "49rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 20",
+            "display": "M20",
+            "left": "71rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 21",
+            "display": "M21",
+            "left": "83rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 22",
+            "display": "M22",
+            "left": "104rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "Tp MC 3",
+            "display": "TP",
+            "left": "128rem",
+            "top": "23.5rem"
+          },
+          {
+            "id": "Ck Wr 3",
+            "display": "CW",
+            "left": "158rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "CE 3",
+            "display": "CE",
+            "left": "161rem",
+            "top": "21.5rem"
+          }
+        ]
+      },
+      "4": {
+        "machineDots": [
+          {
+            "id": "MC 25",
+            "roman": "I"
+          },
+          {
+            "id": "MC 26",
+            "roman": "II"
+          },
+          {
+            "id": "MC 27",
+            "roman": "III"
+          },
+          {
+            "id": "MC 28",
+            "roman": "IV"
+          },
+          {
+            "id": "MC 29",
+            "roman": "V"
+          },
+          {
+            "id": "MC 30",
+            "roman": "VI"
+          },
+          {
+            "id": "Tp MC 4",
+            "roman": "VII"
+          },
+          {
+            "id": "CE 4",
+            "roman": "VIII"
+          },
+          {
+            "id": "Ck Wr 4",
+            "roman": "IX"
+          },
+          {
+            "id": "HighBay 4",
+            "roman": "X"
+          },
+          {
+            "id": "",
+            "roman": "XI"
+          }
+        ],
+        "backgroundImage": "loop3Diagram.png",
+        "machineNumbers": [
+          {
+            "id": "MC 25",
+            "display": "M25",
+            "left": "16rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 26",
+            "display": "M26",
+            "left": "37rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 27",
+            "display": "M27",
+            "left": "49rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 28",
+            "display": "M28",
+            "left": "71rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 29",
+            "display": "M29",
+            "left": "83rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "MC 30",
+            "display": "M30",
+            "left": "104rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "Tp MC 4",
+            "display": "TP",
+            "left": "128rem",
+            "top": "23.5rem"
+          },
+          {
+            "id": "Ck Wr 4",
+            "display": "CW",
+            "left": "158rem",
+            "top": "0.5rem"
+          },
+          {
+            "id": "CE 4",
+            "display": "CE",
+            "left": "161rem",
+            "top": "21.5rem"
+          }
+        ]
+      }
+    },
+    "statusColors": {
+      "ok": "linear-gradient(180deg, #60A917, #60A917)",
+      "alert": "linear-gradient(180deg, #FFF0C6, #FFDA6B)",
+      "machine_off": "linear-gradient(180deg, #F6C1BF, #EC7A76)",
+      "pending": "linear-gradient(180deg, #D2E2FA, #81A8E1)",
+      "unknown": "linear-gradient(180deg, rgb(112, 114, 110), rgb(47, 48, 46))"
+    },
+    "notificationColors": {
+      "1": "linear-gradient(180deg, #F6C1BF, #EC7A76)",
+      "2": "linear-gradient(180deg, rgb(181, 235, 127), #60A917)",
+      "3": "linear-gradient(180deg, #FFF0C6, #FFDA6B)",
+      "4": "linear-gradient(180deg, #D2E2FA, #81A8E1)",
+      "5": "linear-gradient(180deg, #60A917, #60A917)"
+    },
+    "notificationTypeToColorCode": {
+      "Error": 1,
+      "Cleared": 2,
+      "Warning": 3,
+      "Info": 4,
+      "OK": 5
+    },
+    "notifications": [],
+    "defaultImage": "redtape.png",
+    "pollInterval": 2000,
+    "containerMaxHeight": "75vh",
+    "cardBodyMaxHeight": "56vh",
+    "textColorWhiteStatuses": [
+      "ok",
+      "unknown",
+      2,
+      5
+    ]
+  }

@@ -1,0 +1,155 @@
+{
+    "default": {
+    "1": [
+      {
+        "name": "ROT. VALVE FWD START",
+        "key": "HMI_Rot_Valve_Open_Start_Deg",
+        "displayKey": "HMI_Rot_Valve_Open_Start_Deg"
+      },
+      {
+        "name": "ROT. VALVE FWD END",
+        "key": "HMI_Rot_Valve_Open_End_Deg",
+        "displayKey": "HMI_Rot_Valve_Open_End_Deg"
+      },
+      {
+        "name": "ROT. VALVE REV START",
+        "key": "HMI_Rot_Valve_Close_Start_Deg",
+        "displayKey": "HMI_Rot_Valve_Close_Start_Deg"
+      },
+      {
+        "name": "ROT. VALVE REV END",
+        "key": "HMI_Rot_Valve_Close_End_Deg",
+        "displayKey": "HMI_Rot_Valve_Close_End_Deg"
+      }
+    ],
+    "2": [
+      {
+        "name": "FILLING START",
+        "key": "HMI_Filling_Start_Deg",
+        "displayKey": "HMI_Filling_Start_Deg"
+      },
+      {
+        "name": "FILLING END/ SUCTION START",
+        "key": "HMI_Suction_Start_Deg",
+        "displayKey": "HMI_Suction_Start_Deg"
+      },
+      {
+        "name": "SUCTION END",
+        "key": "HMI_Suction_End_Degree",
+        "displayKey": "HMI_Suction_End_Degree"
+      },
+      {
+        "name": "FILLING STROKE",
+        "key": "HMI_Filling_Stroke_Deg",
+        "displayKey": "HMI_Filling_Stroke_Deg"
+      }
+     
+      
+    ],
+    "3": [
+      
+      {
+        "name": "VER. CLOSE START",
+        "key": "HMI_VER_CLOSE_START",
+        "displayKey": "HMI_VER_CLOSE_START"
+      },
+      {
+        "name": "VER. CLOSE END",
+        "key": "HMI_VER_CLOSE_END",
+        "displayKey": "HMI_VER_CLOSE_END"
+      },
+      {
+        "name": "VER. OPEN START",
+        "key": "HMI_VER_OPEN_START",
+        "displayKey": "HMI_VER_OPEN_START"
+      },
+      {
+        "name": "VER. OPEN END",
+        "key": "HMI_VER_OPEN_END",
+        "displayKey": "HMI_VER_OPEN_END"
+      }
+     
+    ],
+    "4": [
+        {
+            "name": "HOZ CLOSE START",
+            "key": "HMI_HOZ_CLOSE_START",
+            "displayKey": "HMI_HOZ_CLOSE_START"
+          },
+      {
+        "name": "HOZ CLOSE END",
+        "key": "HMI_HOZ_CLOSE_END",
+        "displayKey": "HMI_HOZ_CLOSE_END"
+      },
+      {
+        "name": "HMI HOZ OPEN START",
+        "key": "HMI_HOZ_OPEN_START",
+        "displayKey": "HMI_HOZ_OPEN_START"
+      },  
+      {
+        "name": "HOZ OPEN END",
+        "key": "HMI_HOZ_OPEN_END",
+        "displayKey": "HMI_HOZ_OPEN_END"
+      }
+      
+    ],
+    "5": [
+      {
+        "name": "PULLER START",
+        "key": "HMI_Puller_Start_Deg",
+        "displayKey": "HMI_Puller_Start_Deg"
+      },
+      {
+        "name": "PULLER STOP",
+        "key": "HMI_Puller_Stop_Deg",
+        "displayKey": "HMI_Puller_Stop_Deg"
+      }
+    ]
+  },
+  "mc18": {
+     "1.b": [
+      {
+        "name": "ROT. VALVE FWD START",
+        "key": "HMI_Rot_Valve_Open_Start_Deg1",
+        "displayKey": "HMI_Rot_Valve_Open_Start_Deg1"
+      },
+      {
+        "name": "ROT. VALVE FWD END",
+        "key": "HMI_Rot_Valve_Open_End_Deg1",
+        "displayKey": "HMI_Rot_Valve_Open_End_Deg1"
+      },
+      {
+        "name": "ROT. VALVE REV START",
+        "key": "HMI_Rot_Valve_Close_Start_Deg1",
+        "displayKey": "HMI_Rot_Valve_Close_Start_Deg1"
+      },
+      {
+        "name": "ROT. VALVE REV END",
+        "key": "HMI_Rot_Valve_Close_End_Deg1",
+        "displayKey": "HMI_Rot_Valve_Close_End_Deg1"
+      }
+    ],
+    "2.b": [
+      {
+        "name": "FILLING START",
+        "key": "HMI_Filling_Start_Deg1",
+        "displayKey": "HMI_Filling_Start_Deg1"
+      },
+      {
+        "name": "FILLING END/ SUCTION START",
+        "key": "HMI_Suction_Start_Deg1",
+        "displayKey": "HMI_Suction_Start_Deg1"
+      },
+      {
+        "name": "SUCTION END",
+        "key": "HMI_Suction_End_Degree1",
+        "displayKey": "HMI_Suction_End_Degree1"
+      },
+      {
+        "name": "FILLING STROKE",
+        "key": "HMI_Filling_Stroke_Deg1",
+        "displayKey": "HMI_Filling_Stroke_Deg1"
+      }
+    ]
+  }
+  }

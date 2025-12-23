@@ -1,0 +1,17 @@
+{
+    "database": {
+      "dbname": "hul",
+      "user": "postgres",
+      "password": "ai4m2024",
+      "host": "192.168.1.168",
+      "port": "5432"
+    },
+    "database1": {
+      "dbname": "sensor_db",
+      "user": "postgres",
+      "password": "ai4m2024",
+      "host": "192.168.0.158",
+      "port": "5432"
+    }
+  }
+  

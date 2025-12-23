@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/opencv_cpp.dir/opencv.cpp.o -o ../../bin/opencv_cpp   -L/home/ai4m/develop/Baumer_neoAPI_1.4.1_lin_x86_64_cpp/lib 

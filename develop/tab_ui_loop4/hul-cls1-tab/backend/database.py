@@ -1,0 +1,45 @@
+from fastapi import HTTPException
+import psycopg2
+import json
+import traceback
+
+with open('db_config.json', 'r') as config_file:
+    config = json.load(config_file)
+
+DATABASE = config['database']
+DATABASE2 = config['database1']
+
+
+def get_db():
+    try:
+        conn = psycopg2.connect(**DATABASE)
+        cursor = conn.cursor()
+        return conn, cursor
+    except Exception as e:
+        print(f"Error connecting to main database: {e}")
+        print(traceback.format_exc())
+        return None, None
+
+def get_device_db():
+    try:
+        conn2 = psycopg2.connect(**DATABASE2)
+        cursor2 = conn2.cursor()
+        return conn2, cursor2
+    except Exception as e:
+        print(f"Error connecting to secondary database: {e}")
+        print(traceback.format_exc())
+        return None, None
+
+def close_db(conn, cursor):
+    """ Close the main database connection and cursor. """
+    if cursor:
+        cursor.close()
+    if conn:
+        conn.close()
+
+def close_device_db(conn2, cursor2):
+    """ Close the secondary database connection and cursor. """
+    if cursor2:
+        cursor2.close()
+    if conn2:
+        conn2.close()

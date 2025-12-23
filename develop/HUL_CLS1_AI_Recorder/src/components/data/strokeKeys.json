@@ -1,0 +1,89 @@
+{
+  "dual_filling": {
+    "machines": ["mc18"],
+    "strokes": [
+      {
+        "name": "Horizontal Sealer Stroke 1",
+        "key": "HMI_Hor_Sealer_Strk_1",
+        "displayKey": "hor_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Horizontal Sealer Stroke 2",
+        "key": "HMI_Hor_Sealer_Strk_2",
+        "displayKey": "hor_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Vertical Sealer Stroke 1",
+        "key": "HMI_Ver_Sealer_Strk_1",
+        "displayKey": "ver_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Vertical Sealer Stroke 2",
+        "key": "HMI_Ver_Sealer_Strk_2",
+        "displayKey": "ver_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Filling Stroke 1",
+        "key": "HMI_Filling_Stroke_Deg",
+        "displayKey": "hmi_filling_stroke_deg",
+        "min": 15,
+        "max": 40
+      },
+      {
+        "name": "Filling Stroke 2",
+        "key": "HMI_Filling_Stroke_Deg1",
+        "displayKey": "hmi_filling_stroke_deg1",
+        "min": 15,
+        "max": 40
+      }
+    ]
+  },
+  "single_filling": {
+    "machines": ["mc17", "mc19", "mc20", "mc21", "mc22"],
+    "strokes": [
+      {
+        "name": "Horizontal Sealer Stroke 1",
+        "key": "HMI_Hor_Sealer_Strk_1",
+        "displayKey": "hor_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Horizontal Sealer Stroke 2",
+        "key": "HMI_Hor_Sealer_Strk_2",
+        "displayKey": "hor_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Vertical Sealer Stroke 1",
+        "key": "HMI_Ver_Sealer_Strk_1",
+        "displayKey": "ver_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Vertical Sealer Stroke 2",
+        "key": "HMI_Ver_Sealer_Strk_2",
+        "displayKey": "ver_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Filling Stroke",
+        "key": "HMI_Filling_Stroke_Deg",
+        "displayKey": "hmi_filling_stroke_deg",
+        "min": 15,
+        "max": 40
+      }
+    ]
+  }
+}

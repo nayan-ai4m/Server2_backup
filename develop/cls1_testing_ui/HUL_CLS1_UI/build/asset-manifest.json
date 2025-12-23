@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2eb13b4d.css",
+    "main.js": "/static/js/main.fc4e9ce1.js",
+    "static/js/453.bb4d685d.chunk.js": "/static/js/453.bb4d685d.chunk.js",
+    "static/media/Line3.png": "/static/media/Line3.caf586950893e85cedb6.png",
+    "static/media/loopDiagram.png": "/static/media/loopDiagram.005ebb36009021ba3a90.png",
+    "static/media/loop3Diagram.png": "/static/media/loop3Diagram.95045d825afbf4740c40.png",
+    "static/media/loopDiagram.webp": "/static/media/loopDiagram.b7e79fe14d78cae1605a.webp",
+    "static/media/primeicons.svg": "/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/redtape.png": "/static/media/redtape.62c252ebc7467c503569.png",
+    "static/media/3dimg.png": "/static/media/3dimg.759f7cc4d46d9a35fe2f.png",
+    "static/media/machineImage.png": "/static/media/machineImage.1b565e4ff512a7720b0e.png",
+    "static/media/hul_dark.png": "/static/media/hul_dark.207eb153ae65718f087d.png",
+    "static/media/ai4m_dark.png": "/static/media/ai4m_dark.4835031f12bacbda6fba.png",
+    "static/media/hul.png": "/static/media/hul.d3137d3e72d1b1669f40.png",
+    "static/media/primeicons.eot": "/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/redbox.png": "/static/media/redbox.282af62731e1aed02c44.png",
+    "static/media/okbox.png": "/static/media/okbox.8472a655be130b3b3d26.png",
+    "static/media/3dimg.webp": "/static/media/3dimg.998833c25a8e6c39453e.webp",
+    "static/media/hul_dark.webp": "/static/media/hul_dark.192717298a047e0dd74a.webp",
+    "static/media/primeicons.woff2": "/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/hul.webp": "/static/media/hul.42fa8ca7725067f7bed1.webp",
+    "static/media/hopper.png": "/static/media/hopper.4635c85fd41d83bed2e7.png",
+    "static/media/ai4m_dark.webp": "/static/media/ai4m_dark.aeadd86916d5383a19ab.webp",
+    "static/media/shutdown.png": "/static/media/shutdown.e8250be679cbeb1a3ed4.png",
+    "static/media/ai4m_logo.png": "/static/media/ai4m_logo.3cd20552b6da3d4d63f3.png",
+    "index.html": "/index.html",
+    "main.2eb13b4d.css.map": "/static/css/main.2eb13b4d.css.map",
+    "main.fc4e9ce1.js.map": "/static/js/main.fc4e9ce1.js.map",
+    "453.bb4d685d.chunk.js.map": "/static/js/453.bb4d685d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eb13b4d.css",
+    "static/js/main.fc4e9ce1.js"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dual_hopper": {
+    "machines": ["mc25", "mc26"],
+    "strokes": [
+      {
+        "name": "Horizontal Sealer Stroke 1",
+        "key": "hori_sealer_stroke_1",
+        "displayKey": "hori_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Horizontal Sealer Stroke 2",
+        "key": "hori_sealer_stroke_2",
+        "displayKey": "hori_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Vertical Sealer Stroke 1",
+        "key": "vert_sealer_stroke_1",
+        "displayKey": "vert_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Vertical Sealer Stroke 2",
+        "key": "vert_sealer_stroke_2",
+        "displayKey": "vert_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Filling Stroke Left",
+        "key": "filling_stroke_length_left",
+        "displayKey": "filling_stroke_length_left",
+        "min": 15,
+        "max": 40
+      },
+      {
+        "name": "Filling Stroke Right",
+        "key": "filling_stroke_length_right",
+        "displayKey": "filling_stroke_length_right",
+        "min": 15,
+        "max": 40
+      }
+    ]
+  },
+  "single_hopper": {
+    "machines": ["mc27", "mc28", "mc29", "mc30"],
+    "strokes": [
+      {
+        "name": "Horizontal Sealer Stroke 1",
+        "key": "hori_sealer_stroke_1",
+        "displayKey": "hori_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Horizontal Sealer Stroke 2",
+        "key": "hori_sealer_stroke_2",
+        "displayKey": "hori_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Vertical Sealer Stroke 1",
+        "key": "vert_sealer_stroke_1",
+        "displayKey": "vert_sealer_stroke_1",
+        "min": 30,
+        "max": 90
+      },
+      {
+        "name": "Vertical Sealer Stroke 2",
+        "key": "vert_sealer_stroke_2",
+        "displayKey": "vert_sealer_stroke_2",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "name": "Filling Stroke",
+        "key": "filling_stroke_length",
+        "displayKey": "filling_stroke_length",
+        "min": 15,
+        "max": 40
+      }
+    ]
+  }
+}

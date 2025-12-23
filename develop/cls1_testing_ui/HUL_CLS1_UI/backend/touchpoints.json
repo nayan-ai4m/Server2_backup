@@ -1,0 +1,668 @@
+[
+  {
+    "TP01": {
+      "instruction": "",
+      "title": "Machine  stopped",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP51": {
+      "instruction": "Check mat in CLD with press test for leakage.",
+      "title": "Possibility of leakage.",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP77": {
+      "instruction": "Check laminate near pulling roller",
+      "title": "Jamming possibility.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP05": {
+      "instruction": "",
+      "title": "Base BBOEE low.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP06": {
+      "instruction": "",
+      "title": "VFFS will not cross base BBOEE at end of shift.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP07": {
+      "instruction": "",
+      "title": "-",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP08": {
+      "instruction": "Check for bad orientation or open tape",
+      "title": "CLD Jamming Infeed",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP54": {
+      "instruction": "Check for bad orientation or open tape",
+      "title": "CLD Jamming Pre - infeed",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP55": {
+      "instruction": "Check for bad orientation or open tape",
+      "title": "CLD Jamming Post - outfeed",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP11": {
+      "instruction": "Check for bad orientation",
+      "title": "CLD Jamming Outfeed",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP12": {
+      "instruction": "Check for bad orientation",
+      "title": "CLD Jamming Dropping",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP13": {
+      "instruction": "Insert 3 Empty CLDs in infeed",
+      "title": "CLD Starvation Infeed",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP14": {
+      "instruction": "Remove jamming from previous machines.",
+      "title": "CLD Starvation Pre - Infeed",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP15": {
+      "instruction": "Adjust CLD",
+      "title": "Bad CLD Orientation",
+      "hasVisible": true,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP42": {
+      "instruction": "Adjust CLD and Insert 2 Empty CLDs in infeed",
+      "title": "Starvation and Bad Orientation",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP43": {
+      "instruction": "Adjust CLD and remove jamming",
+      "title": "Jamming and Bad Orientation",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP16": {
+      "instruction": "",
+      "title": "Vertical sealer motor has reached critical conditions",
+      "hasVisible": false,
+      "prediction_category": "Breakdown",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP44": {
+      "instruction": "",
+      "title": "Horizontal sealer motor has reached critical conditions",
+      "hasVisible": false,
+      "prediction_category": "Breakdown",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP17": {
+      "instruction": "Remove the Mats with Red Tape and Restart the Machine",
+      "title": "Red Tape Detected",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP18": {
+      "instruction": "1. Check Perforation settings \n2. Inspect Perforation blade for any damaged",
+      "title": "Perforation Missing",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP19": {
+      "instruction": "",
+      "title": "Eyemark missing",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP20": {
+      "instruction": "Adjust the Eyemark sensor to align eyemark",
+      "title": "Eyemark shifted",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP21": {
+      "instruction": "Reduce the sealer temperature",
+      "title": "Sachet Burn",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP22": {
+      "instruction": "Inspect if sachet string with most wrinkle and adjust the filling nozzle for the respective string. Inspect the slit cutters and adjust the pressure bolt.",
+      "title": "Wrinkle detected",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP72": {
+      "instruction": "Start the machine.",
+      "title": "Taping machine stopped for too long.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP45": {
+      "instruction": "Please check the connectivity.",
+      "title": "Taping machine offline.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP24": {
+      "instruction": "Remove from conveyor and check for machine settings",
+      "title": "Bad Taping Detected",
+      "hasVisible": true,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP25": {
+      "instruction": "Check for open tape or bad orientation",
+      "title": "Taping machine : Jamming Detected",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP50": {
+      "instruction": "Start the machine.",
+      "title": "Checkweigher stopped for too long.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP46": {
+      "instruction": "Please check the connectivity.",
+      "title": "Checkweigher  offline.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP27": {
+      "instruction": "",
+      "title": "EGA above limit.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP28": {
+      "instruction": "Remove CLD from rejection area",
+      "title": "Checkweigher rejection area full.",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP29": {
+      "instruction": "Remove High Bay jamming",
+      "title": "Checkweigher Jamming",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP30": {
+      "instruction": "Check for stuck CLD and remove it.",
+      "title": "High Bay Jamming : Inclined Conveyor",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP31": {
+      "instruction": "Put the mat back into the CLD and check for confirm good taping.",
+      "title": "Mat out of CLD : Buffer Conveyor",
+      "hasVisible": true,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP32": {
+      "instruction": "Correct CLD orientation",
+      "title": "Jamming : Buffer Conveyor",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP38": {
+      "instruction": "Start the machine.",
+      "title": "Case erector stopped for too long.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP47": {
+      "instruction": "Please check the connectivity.",
+      "title": "Case erector offline.",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP39": {
+      "instruction": "",
+      "title": "Case erector magazine empty .",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP40": {
+      "instruction": "Check for open tape or correct the orientation",
+      "title": "Case erector Jamming",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP41": {
+      "instruction": "Refill magazine",
+      "title": "Case erector magazine about to end",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP42": {
+      "instruction": "Adjust CLD and Insert 2 Empty CLDs in infeed",
+      "title": "Starvation and Bad Orientation",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP43": {
+      "instruction": "Adjust CLD and remove jamming",
+      "title": "Jamming and Bad Orientation",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP48": {
+      "instruction": "Adjust CLD and remove jamming",
+      "title": "Possible Jamming",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP49": {
+      "instruction": "Insert 2 Empty CLDs in infeed",
+      "title": "Possible Starvation",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP26": {
+      "instruction": "Keep the next laminate roll ready.",
+      "title": "Laminate Roll about to end.",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP03": {
+      "instruction": "Adjust the laminate",
+      "title": "Leaping detected on left",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP09": {
+      "instruction": "1. Check Roller bearings \n2. Clean Perforation blade and Sealer",
+      "title": "Possible Continuous Laminate Jamming",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP10": {
+      "instruction": "1. Check Roller bearings \n2. Clean Perforation blade and Sealer",
+      "title": "Possible Abrupt Laminate Jamming",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP56": {
+      "instruction": "Horizontal or vertical gearbox failing",
+      "title": "Vertical and Horizontal axes out of sync",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP57": {
+      "instruction": "Filling piston is under load",
+      "title": "Vertical and Rotational axes out of sync",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP58": {
+      "instruction": "Possible tie rod break",
+      "title": "Filling and Rotational axes out of sync",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP59": {
+      "instruction": "Puller slippage",
+      "title": "Pulling and Horizontal axes out of sync",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP52": {
+      "instruction": "Lower the filling stroke",
+      "title": "EGA will rise",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP53": {
+      "instruction": "Increase the filling stroke",
+      "title": "EGA will drop",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP60": {
+      "instruction": "Check mat formation",
+      "title": "Autocollator jamming",
+      "hasVisible": false,
+      "prediction_category": "",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP61": {
+      "instruction": "Please configure suggested settings",
+      "title": "Possibility of open leakage due to low temperature",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP62": {
+      "instruction": "Please configure suggested settings",
+      "title": "Possibility of open leakage due to low pressure",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP63": {
+      "instruction": "Inspect if sachet string with most wrinkle and adjust the filling nozzle for the respective string. Inspect the slit cutters and adjust the pressure bolt.",
+      "title": "Possibility of leakage due to wrinkle",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP64": {
+      "instruction": "Check for foaming in hopper. \nCheck filling nozzle for blockage",
+      "title": "Possibility of leakage due to wiping",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP65": {
+      "instruction": "Stop machine and Adjust the laminate between vertical and horizontal sealer",
+      "title": "Possibility of paper breakage",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP66": {
+      "instruction": "Decrease the filling stroke by 0.4",
+      "title": "Possible Overweight",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP67": {
+      "instruction": "Increase the filling stroke by 0.4",
+      "title": "Possible Underweight",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP68": {
+      "instruction": "Reduce the sealer temperature",
+      "title": "Possibility of laminate burn",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP69": {
+      "instruction": "Please configure suggested settings ",
+      "title": "Possibility open leakage due to low temp and pressure",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP70": {
+      "instruction": "Inspect for mechanical faults or homing errors; call maintenance if needed",
+      "title": "Possibility open leakage due to homing or mechanical issue",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP71": {
+      "instruction": "Please configure suggested settings",
+      "title": "Possibility open leakage due to incorrect stroke setting",
+      "hasVisible": false,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP23": {
+      "instruction": "Enter GSM data for new laminate roll",
+      "title": "New Laminate Roll Added",
+      "hasVisible": false,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["cockpit"]
+    }
+  },
+  {
+    "TP73": {
+      "instruction": "Contact electrician , there is  sudden drop in temprature out of bandwidth.",
+      "title": "Possibility of open leakage due to low temperature",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP74": {
+      "instruction": "Inspect the following components : \n1. Rod End bearing \n2. Tie Rod \n3. Leaver and pin \n4. Pressure bolt on horizontal sealer \n5. Homing sensor adjustment",
+      "title": "Possibility of open leakage due to low pressure",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP75": {
+      "instruction": "For pressure issue check: \n1. Rod End bearing \n2. Tie Rod \n3. Leaver and pin \n4. Pressure bolt \n5. Homing sensor. \n\nFor temperature issue , contact electrician.",
+      "title": "Possibility open leakage due to low temp and pressure",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP76": {
+      "instruction": "Verify seal integrity with press test \nCheck seal impression there should be 2 sealing line visible on each sachet",
+      "title": "Possibility open leakage due to incorrect stroke setting",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TP04": {
+      "instruction": "",
+      "title": "Slitting missing",
+      "hasVisible": true,
+      "prediction_category": "Quality",
+      "rolesVisibleTo": ["field"]
+    }
+  },
+  {
+    "TBD": {
+      "instruction": "Stop feeding pump",
+      "title": "Low Bulk Settling Time",
+      "hasVisible": true,
+      "prediction_category": "Productivity",
+      "rolesVisibleTo": ["field"]
+    }
+  }
+]

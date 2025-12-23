@@ -1,0 +1,92 @@
+{
+  "base_url": "http://192.168.0.185:8015",
+  "machines": [
+    {
+      "machine_id": "MC25",
+      "zmq_port": "5564",
+      "output_dir": "slitting_mc25",
+      "zone": [[17, 98], [1515, 150], [1519, 653], [25, 593]],
+      "target_class": 3,
+      "batch_size": 30,
+      "tp_table": "mc25_tp_status",
+      "tp_column": "tp77",
+      "camera_id": "MC25"
+    },
+    {
+      "machine_id": "MC26",
+      "zmq_port": "5561",
+      "output_dir": "slitting_mc26",
+      "zone": [[21, 392], [2008, 375], [2004, 877], [37, 921]],
+      "target_class": 3,
+      "batch_size": 30,
+      "tp_table": "mc26_tp_status",
+      "tp_column": "tp77",
+      "camera_id": "MC26"
+    },
+    {
+      "machine_id": "MC27",
+      "zmq_port": "5569",
+      "output_dir": "slitting_mc27",
+      "zone": [[67, 47], [2013, 74], [2008, 531], [50, 497]],
+      "target_class": 3,
+      "batch_size": 30,
+      "tp_table": "mc27_tp_status",
+      "tp_column": "tp77",
+      "camera_id": "MC27"
+    },
+    {
+      "machine_id": "MC28",
+      "zmq_port": "5568",
+      "output_dir": "slitting_mc28",
+      "zone": [[42, 254], [1999, 150], [2008, 685], [32, 765]],
+      "target_class": 3,
+      "batch_size": 30,
+      "tp_table": "mc28_tp_status",
+      "tp_column": "tp77",
+      "camera_id": "MC28"
+    },
+    {
+      "machine_id": "MC29",
+      "zmq_port": "5566",
+      "output_dir": "slitting_mc29",
+      "zone": [[20, 167], [1998, 188], [2021, 716], [27, 665]],
+      "target_class": 3,
+      "batch_size": 30,
+      "tp_table": "mc29_tp_status",
+      "tp_column": "tp77",
+      "camera_id": "MC29"
+    },
+    {
+      "machine_id": "MC30",
+      "zmq_port": "5567",
+      "output_dir": "slitting_mc30",
+      "zone": [[26, 473], [1987, 530], [1995, 1075], [32, 1032]],
+      "target_class": 3,
+      "batch_size": 30,
+      "tp_table": "mc30_tp_status",
+      "tp_column": "tp77",
+      "camera_id": "MC30"
+    }
+  ],
+  "model": {
+    "url": "100.103.195.124:8006",
+    "model_name": "slitting_model",
+    "input_size": 1280,
+    "conf_thresh": 0.5
+  },
+  "db": {
+    "tp_db": {
+      "host": "192.168.1.168",
+      "dbname": "hul",
+      "user": "postgres",
+      "password": "ai4m2024"
+    },
+    "event_db": {
+      "host": "100.96.244.68",
+      "dbname": "hul",
+      "user": "postgres",
+      "password": "ai4m2024"
+    }
+  }
+}
+

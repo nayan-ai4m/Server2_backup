@@ -1,0 +1,55 @@
+[sensor0]
+enable=1
+type=Camera
+id=l3_taping
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+[sensor1]
+enable=1
+type=Camera
+id=l3_eol
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+
+[sensor2]
+enable=1
+type=Camera
+id=l3_highbay
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+
+#Taping_view1
+[sensor3]
+enable=1
+type=Camera
+id=l4_taping
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+
+#EOL LOOP4
+[sensor4]
+enable=1
+type=Camera
+id=l4_eol
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2
+
+
+#HighBay_LOOP4  
+
+[sensor5]
+enable=1
+type=Camera
+id=l4_highbay
+location=45.293701447;-75.8303914499;48.1557479338
+description=Aisle Camera
+coordinate=5.2;10.1;11.2

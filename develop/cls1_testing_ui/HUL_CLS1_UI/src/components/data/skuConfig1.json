@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "sku": "SSB1RSSF68436937",
+    "name": "Sunsilk Black",
+    "imageUrl": "/sunsilk_black.png"
+  },
+  {
+    "id": 2,
+    "sku": "CP1RSEGG68248688",
+    "name": "Clinic Plus with Egg Protein",
+    "imageUrl": "/clinic_plus_egg_protein.png"
+  },
+  {
+    "id": 3,
+    "sku": "SSP1RSSF68810922",
+    "name": "Sunsilk Pink",
+    "imageUrl": "/sunsilk_pink.png"
+  },
+  {
+    "id": 4,
+    "sku": "CP1RSSFG69785815",
+    "name": "Clinic Plus",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 5,
+    "sku": "DVSC2R5",
+    "name": "Dove Shampoo C2",
+    "imageUrl": "/dove_daily_shine.png"
+  },
+  {
+    "id": 6,
+    "sku": "DVSBPR0",
+    "name": "Dove Bio Protein",
+    "imageUrl": "/dove_hairfall_rescue.png"
+  },
+  {
+    "id": 7,
+    "sku": "TRSI1R1",
+    "name": "Tresemme Intensive Repair",
+    "imageUrl": "/tresemme_intensive_repair.png"
+  },
+  {
+    "id": 8,
+    "sku": "TRRY100",
+    "name": "Tresemme Royal",
+    "imageUrl": "/tresemme_royal.png"
+  },
+  {
+    "id": 9,
+    "sku": "DVS1R1",
+    "name": "Dove Antidandruf",
+    "imageUrl": "/dove_anti_dandruff_solutions.png"
+  },
+  {
+    "id": 10,
+    "sku": "DVSA3R8",
+    "name": "Dove Hairf Res Shamp Bioprotein Care 6 ml",
+    "imageUrl": "/dove_hairfall_rescue.png"
+  },
+  {
+    "id": 11,
+    "sku": "DVWA2R8",
+    "name": "Dove Daily Shine Shampoo Bioprotein Care",
+    "imageUrl": "/dove_daily_shine.png"
+  },
+  {
+    "id": 12,
+    "sku": "TRSH1R3",
+    "name": "Tresemme Smooth & Shine",
+    "imageUrl": ""
+  },
+  {
+    "id": 13,
+    "sku": "DVUM1R1",
+    "name": "Dove Daily Shine SHP LCS 6ml",
+    "imageUrl": "/dove_daily_shine.png"
+  },
+  {
+    "id": 14,
+    "sku": "CLAB1R6",
+    "name": "CLP STRONG & LONG SHP 3.7 ml",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 15,
+    "sku": "CLPA2R6",
+    "name": "Clinic Plus Shampoo Scahet 6.5 ml",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 16,
+    "sku": "CLSE1R5",
+    "name": "Clinic Plus Strong & Shiny SHMP 6.5 ml",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 17,
+    "sku": "SKBF4R2",
+    "name": "SS BS+Sh-vita-pro 6.5 ml",
+    "imageUrl": ""
+  },
+  {
+    "id": 18,
+    "sku": "TRSH1R5",
+    "name": "TRESemme HairFall Def SHP 6.5 ml",
+    "imageUrl": "/tresemme_intensive_repair.png"
+  },
+  {
+    "id": 19,
+    "sku": "DVSB3R2",
+    "name": "Dove Intense RP Sh Bioprotrin Care 5.5 ml",
+    "imageUrl": "/dove_hairfall_rescue.png"
+  },
+  {
+    "id": 20,
+    "sku": "CLAB1R5",
+    "name": "CLP STRONG & LONG SHP 3.4 ml",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 21,
+    "sku": "SKBF3R5",
+    "name": "SS Black Shine +SH -Vita-Pro 6ML",
+    "imageUrl": "/sunsilk_black.png"
+  },
+  {
+    "id": 22,
+    "sku": "SKPG1R0",
+    "name": "SUNSILK THK & LNG Shp 5.5 ml",
+    "imageUrl": "/sunsilk_pink.png"
+  },
+  {
+    "id": 23,
+    "sku": "DVVS1R3",
+    "name": "DOVE DND Clean & Fresh Shp 5.4 ml",
+    "imageUrl": "/dove_anti_dandruff_solutions.png"
+  },
+  {
+    "id": 24,
+    "sku": "DVSC3R0",
+    "name": "Dove Dandruff Care Shampoo + BIOP 5.9 ml",
+    "imageUrl": ""
+  },
+  {
+    "id": 25,
+    "sku": "CLSE1R1",
+    "name": "Clinic Plus Strong & Shiny SHMP 6 ML",
+    "imageUrl": "/clinic_plus_egg_protein.png"
+  },
+  {
+    "id": 26,
+    "sku": "CLPE1R2",
+    "name": "CLP SL SHMP 6 ML incl 50% extra",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 27,
+    "sku": "CLPA2R4",
+    "name": "CLP SL SHMP 6 ML with 50% EXTRA",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 28,
+    "sku": "TRSH1R4",
+    "name": "TRESemme HairFall Def SHP 6 ml",
+    "imageUrl": "/tresemme_intensive_repair.png"
+  },
+  {
+    "id": 29,
+    "sku": "TRRY1R0",
+    "name": "TRESemme Smooth & Shine LCS 6 ml",
+    "imageUrl": ""
+  },
+  {
+    "id": 30,
+    "sku": "TRSI1R3",
+    "name": "TRESemme Krtn Smt Shp LCS 6.5 ml",
+    "imageUrl": ""
+  },
+  {
+    "id": 31,
+    "sku": "SSFL2R4",
+    "name": "Sunsilk Thick & L+Sh-Kera-Pro For 5.9 ml",
+    "imageUrl": "/sunsilk_pink.png"
+  },
+  {
+    "id": 32,
+    "sku": "SKBF3R4",
+    "name": "SSK BS+ SACHET 6 ML",
+    "imageUrl": "/clinic_plus_egg_protein.png"
+  },
+  {
+    "id": 33,
+    "sku": "SSFL2R2",
+    "name": "SSK T&L + SACHET 5.5 ML",
+    "imageUrl": "/sunsilk_pink.png"
+  },
+  {
+    "id": 34,
+    "sku": "CLPA3R0",
+    "name": "CLP SL SHMP 6 ML with 50% EXTRA",
+    "imageUrl": "/clinic_plus_strong_and_long.png"
+  },
+  {
+    "id": 35,
+    "sku": "CLSE1R4",
+    "name": "Clinic Plus Strong & Shiny SHMP 6.2 ML",
+    "imageUrl": "/clinic_plus_egg_protein.png"
+  },
+  {
+    "id": 36,
+    "sku": "CLSO100",
+    "name": "CLP S&S SHMP 6 ml",
+    "imageUrl": "/clinic_plus_egg_protein.png"
+  },
+  {
+    "id": 37,
+    "sku": "DVWA3R3",
+    "name": "Dove Daily Shine Shp Bioprotein Care 5.5 ml",
+    "imageUrl": "/dove_daily_shine.png"
+  },
+  {
+    "id": 38,
+    "sku": "DVSA4R0",
+    "name": "Dove Hair Rescue Sh NS LCS 6 ml",
+    "imageUrl": "/dove_hairfall_rescue.png"
+  },
+  {
+    "id": 39,
+    "sku": "DVSB3R0",
+    "name": "Dove Int rep Sham Bioprotein Care 6 ml",
+    "imageUrl": ""
+  },
+  {
+    "id": 40,
+    "sku": "DVVA2R8",
+    "name": "Dove Daily Shine Shp Bioprotein Care 6 ml",
+    "imageUrl": "/dove_daily_shine.png"
+  },
+  {
+    "id": 41,
+    "sku": "DVVA3R3",
+    "name": "Dove Daily Shine Shp Bioprotein Care 5.5 ml",
+    "imageUrl": "/dove_daily_shine.png"
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "sachet_types": {
+    "black": {
+      "model_name": "sunsilk_black",
+      "detection_class_mappings": {
+        "wrinkle": 3,
+        "redtape": 2,
+        "eyemark": 1,
+        "perforation": 0
+      }
+    },
+    "red": {
+      "model_name": "red_sachet",
+      "detection_class_mappings": {
+        "wrinkle": 7,
+        "redtape": 0,
+        "eyemark": 1,
+        "perforation": 3
+      }
+    },
+    "white": {
+      "model_name": "white_sachet",
+      "detection_class_mappings": {
+        "wrinkle": 3,
+        "redtape": 2,
+        "eyemark": 1,
+        "perforation": 0
+      }
+    },
+    "pink": {
+      "model_name": "pink_sachet",
+      "detection_class_mappings": {
+        "wrinkle": 3,
+        "redtape": 2,
+        "eyemark": 1,
+        "perforation": 0
+      }
+    },
+    "redtape": {
+      "model_name": "redtap",
+      "detection_class_mappings": {
+        "wrinkle": 3,
+        "redtape": 2,
+        "eyemark": 1,
+        "perforation": 0
+      }
+    }
+  },
+  "machines": {
+    "mc17": {
+      "camera_id": "MC17",
+      "zone": [104, 526, 2018, 580],
+      "zmq_port": 5555,
+      "db_table": "mc17_tp_status",
+      "flip_frame": true
+    },
+    "mc18": {
+      "camera_id": "MC18",
+      "zone": [366, 188, 1210, 354],
+      "zmq_port": 5563,
+      "db_table": "mc18_tp_status",
+      "flip_frame": true
+    },
+    "mc19": {
+      "camera_id": "MC19",
+      "zone": [32, 334, 1426, 522],
+      "zmq_port": 5557,
+      "db_table": "mc19_tp_status",
+      "flip_frame": false
+    },
+    "mc20": {
+      "camera_id": "MC20",
+      "zone": [500, 50, 1612, 186],
+      "zmq_port": 5558,
+      "db_table": "mc20_tp_status",
+      "flip_frame": true
+    },
+    "mc21": {
+      "camera_id": "MC21",
+      "zone": [856, 367, 1302, 417],
+      "zmq_port": 5560,
+      "db_table": "mc21_tp_status",
+      "flip_frame": false
+    },
+    "mc22": {
+      "camera_id": "MC22",
+      "zone": [548, 76, 1746, 232],
+      "zmq_port": 5559,
+      "db_table": "mc22_tp_status",
+      "flip_frame": true
+    },
+    "mc25": {
+      "camera_id": "MC25",
+      "zone": [208, 68, 1048, 222],
+      "zmq_port": 5564,
+      "db_table": "mc25_tp_status",
+      "flip_frame": true
+    },
+    "mc26": {
+      "camera_id": "MC26",
+      "zone": [344, 478, 1362, 614],
+      "zmq_port": 5561,
+      "db_table": "mc26_tp_status",
+      "flip_frame": true
+    },
+    "mc27": {
+      "camera_id": "MC27",
+      "zone": [698, 36, 1660, 154],
+      "zmq_port": 5569,
+      "db_table": "mc27_tp_status",
+      "flip_frame": true
+    },
+    "mc28": {
+      "camera_id": "MC28",
+      "zone": [614, 36, 1716, 138],
+      "zmq_port": 5568,
+      "db_table": "mc28_tp_status",
+      "flip_frame": false
+    },
+    "mc29": {
+      "camera_id": "MC29",
+      "zone": [312, 147, 1674, 285],
+      "zmq_port": 5566,
+      "db_table": "mc29_tp_status",
+      "flip_frame": true
+    },
+    "mc30": {
+      "camera_id": "MC30",
+      "zone": [480, 504, 1692, 640],
+      "zmq_port": 5567,
+      "db_table": "mc30_tp_status",
+      "flip_frame": false
+    }
+  },
+  "database": {
+    "connection_string": "postgres://postgres:ai4m2024@100.64.84.30:5432/hul?sslmode=disable"
+  },
+  "triton": {
+    "detection_server": "0.0.0.0:8006",
+    "classification_server": "0.0.0.0:9002",
+    "detection_model_size": 1280,
+    "detection_threshold": 0.25,
+    "perforation_classifier": {
+      "model_name": "perforation_classify",
+      "confidence_threshold": 0.50
+    }
+  },
+  "detection": {
+    "eyemark_threshold": 5,
+    "horizontal_zone": [1160, 524, 1434, 1458],
+    "output_dir": "/home/ai4m/ASHUTOSH/TESTING_CCTV/test_img",
+    "input_dir": "baumer_images_180",
+    "file_server_url": "http://192.168.0.185:8015"
+  },
+  "event_mapping": {
+    "eyemark_shift": "Vertical Eyemark Shift Detected",
+    "redtape": "Redtape Detected",
+    "perforation_missing": "Bad Perforation Detected",
+    "wrinkle": "Wrinkle Detected"
+  },
+  "class_definitions": {
+    "0": {"name": "perforation", "color": [0, 255, 255]},
+    "1": {"name": "eyemark", "color": [0, 255, 0]},
+    "2": {"name": "redtape", "color": [0, 0, 255]},
+    "3": {"name": "wrinkle", "color": [0, 255, 128]},
+    "4": {"name": "matte-on-belt", "color": [0, 255, 255]},
+    "5": {"name": "slitting", "color": [255, 0, 0]},
+    "6": {"name": "slitting", "color": [255, 0, 255]},
+    "7": {"name": "wrinkle", "color": [255, 0, 255]},
+    "9": {"name": "perforation_bad", "color": [0, 255, 255]}
+  },
+  "zmq": {
+    "host": "localhost",
+    "socket_type": "SUB",
+    "subscribe_filter": ""
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "vision_detector_{machine_id}_{sachet_type}.log",
+    "max_bytes": 10485760,
+    "backup_count": 5
+  }
+}
+

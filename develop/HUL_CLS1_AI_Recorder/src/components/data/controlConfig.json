@@ -1,0 +1,15 @@
+{
+  "controlPanelMachines": [
+    "MC17",
+    "MC18",
+    "MC19",
+    "MC20",
+    "MC21",
+    "MC22",
+    "MC25",
+    "MC26",
+    "MC27",
+    "MC30"
+  ],
+  "visionCameraMachines": ["MC17"]
+}

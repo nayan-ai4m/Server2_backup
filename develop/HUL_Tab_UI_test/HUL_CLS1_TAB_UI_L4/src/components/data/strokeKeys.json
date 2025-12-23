@@ -1,0 +1,7 @@
+{  "1": [
+  { "name": "Horizontal Sealer Stroke 1", "key": "HMI_Hor_Sealer_Strk_1", "displayKey": "hor_sealer_stroke_1" },
+  { "name": "Horizontal Sealer Stroke 2", "key": "HMI_Hor_Sealer_Strk_2", "displayKey": "hor_sealer_stroke_2" },
+  { "name": "Vertical Sealer Stroke 1", "key": "HMI_Ver_Sealer_Strk_1", "displayKey": "ver_sealer_stroke_1" },
+  { "name": "Vertical Sealer Stroke 2", "key": "HMI_Ver_Sealer_Strk_2", "displayKey": "ver_sealer_stroke_2" }
+]
+}

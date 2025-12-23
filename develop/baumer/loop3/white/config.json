@@ -1,0 +1,322 @@
+{
+  "cameras": {
+    "mc17": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "models": {
+        "white_sachet": {
+          "url": "0.0.0.0:8006",
+          "model_name": "white_sachet",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "7": ["wrinkle", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "database": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "sslmode": "disable",
+        "table": "mc17_tp_status"
+      },
+      "zone": [104, 526, 2018, 580],
+      "eyemark_threshold": 5,
+      "zmq": {
+        "address": "tcp://localhost:5555"
+      },
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected",
+        "wrinkle": "Wrinkle Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "wrinkle": "tp22",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.185:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:9002"
+    },
+    "mc18": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "models": {
+        "white_sachet": {
+          "url": "0.0.0.0:8006",
+          "model_name": "white_sachet",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "7": ["wrinkle", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "database": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "sslmode": "disable",
+        "table": "mc18_tp_status"
+      },
+      "zone": [359, 248, 1265, 309],
+      "eyemark_threshold": 5,
+      "zmq": {
+        "address": "tcp://localhost:5563"
+      },
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected",
+        "wrinkle": "Wrinkle Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "wrinkle": "tp22",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.185:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:9002"
+    },
+    "mc19": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "models": {
+        "white_sachet": {
+          "url": "0.0.0.0:8006",
+          "model_name": "white_sachet",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "7": ["wrinkle", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "database": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "sslmode": "disable",
+        "table": "mc19_tp_status"
+      },
+      "zone": [615, 276, 984, 307],
+      "eyemark_threshold": 5,
+      "zmq": {
+        "address": "tcp://localhost:5557"
+      },
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected",
+        "wrinkle": "Wrinkle Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "wrinkle": "tp22",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.185:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:9002"
+    },
+    "mc20": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "models": {
+        "white_sachet": {
+          "url": "0.0.0.0:8006",
+          "model_name": "white_sachet",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "7": ["wrinkle", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "database": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "sslmode": "disable",
+        "table": "mc20_tp_status"
+      },
+      "zone": [500,78,1788,190],
+      "eyemark_threshold": 5,
+      "zmq": {
+        "address": "tcp://localhost:5558"
+      },
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected",
+        "wrinkle": "Wrinkle Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "wrinkle": "tp22",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.185:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:9002"
+    },
+    "mc21": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "models": {
+        "white_sachet": {
+          "url": "0.0.0.0:8006",
+          "model_name": "white_sachet",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "7": ["wrinkle", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "database": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "sslmode": "disable",
+        "table": "mc21_tp_status"
+      },
+      "zone": [856,367,1302,417],
+      "eyemark_threshold": 5,
+      "zmq": {
+        "address": "tcp://localhost:5560"
+      },
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected",
+        "wrinkle": "Wrinkle Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "wrinkle": "tp22",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.185:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:9002"
+    },
+    "mc22": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "models": {
+        "white_sachet": {
+          "url": "0.0.0.0:8006",
+          "model_name": "white_sachet",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "7": ["wrinkle", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "database": {
+        "host": "192.168.1.168",
+        "port": 5432,
+        "dbname": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "sslmode": "disable",
+        "table": "mc22_tp_status"
+      },
+      "zone": [986,620, 1298,664],
+      "eyemark_threshold": 5,
+      "zmq": {
+        "address": "tcp://localhost:5559"
+      },
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected",
+        "wrinkle": "Wrinkle Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "wrinkle": "tp22",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.185:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:9002"
+    }
+  }
+}

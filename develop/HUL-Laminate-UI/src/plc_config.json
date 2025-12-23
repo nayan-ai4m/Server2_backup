@@ -1,0 +1,62 @@
+{
+  "17": {
+    "front_jaw_temp_key": "HMI_Hor_Seal_Front_27",
+    "rear_jaw_temp_key": "HMI_Hor_Seal_Rear_28",
+    "stroke1_key": "HMI_Hor_Sealer_Strk_1",
+    "stroke2_key": "HMI_Hor_Sealer_Strk_2"
+  },
+  "18": {
+    "front_jaw_temp_key": "HMI_Hor_Seal_Front_27",
+    "rear_jaw_temp_key": "HMI_Hor_Seal_Rear_28",
+    "stroke1_key": "HMI_Hor_Sealer_Strk_1",
+    "stroke2_key": "HMI_Hor_Sealer_Strk_2"
+  },
+  "19": {
+    "front_jaw_temp_key": "HMI_Hor_Seal_Front_27",
+    "rear_jaw_temp_key": "HMI_Hor_Seal_Rear_28",
+    "stroke1_key": "HMI_Hor_Sealer_Strk_1",
+    "stroke2_key": "HMI_Hor_Sealer_Strk_2"
+  },
+  "20": {
+    "front_jaw_temp_key": "HMI_Hor_Seal_Front_27",
+    "rear_jaw_temp_key": "HMI_Hor_Seal_Rear_28",
+    "stroke1_key": "HMI_Hor_Sealer_Strk_1",
+    "stroke2_key": "HMI_Hor_Sealer_Strk_2"
+  },
+  "21": {
+    "front_jaw_temp_key": "HMI_Hor_Seal_Front_27",
+    "rear_jaw_temp_key": "HMI_Hor_Seal_Rear_28",
+    "stroke1_key": "HMI_Hor_Sealer_Strk_1",
+    "stroke2_key": "HMI_Hor_Sealer_Strk_2"
+  },
+  "22": {
+    "front_jaw_temp_key": "HMI_Hor_Seal_Front_27",
+    "rear_jaw_temp_key": "HMI_Hor_Seal_Rear_28",
+    "stroke1_key": "HMI_Hor_Sealer_Strk_1",
+    "stroke2_key": "HMI_Hor_Sealer_Strk_2"
+  },
+  "25": {
+    "front_jaw_temp_key": "hor_temp_27_front",
+    "rear_jaw_temp_key": "hor_temp_28_rear",
+    "stroke1_key": "hori_sealer_stroke_1",
+    "stroke2_key": "hori_sealer_stroke_2"
+  },
+  "26": {
+    "front_jaw_temp_key": "hor_temp_27_front",
+    "rear_jaw_temp_key": "hor_temp_28_rear",
+    "stroke1_key": "hori_sealer_stroke_1",
+    "stroke2_key": "hori_sealer_stroke_2"
+  },
+  "27": {
+    "front_jaw_temp_key": "hor_temp_27_front",
+    "rear_jaw_temp_key": "hor_temp_28_rear",
+    "stroke1_key": "hori_sealer_stroke_1",
+    "stroke2_key": "hori_sealer_stroke_2"
+  },
+  "30": {
+    "front_jaw_temp_key": "hor_temp_27_front",
+    "rear_jaw_temp_key": "hor_temp_28_rear",
+    "stroke1_key": "hori_sealer_stroke_1",
+    "stroke2_key": "hori_sealer_stroke_2"
+  }
+}

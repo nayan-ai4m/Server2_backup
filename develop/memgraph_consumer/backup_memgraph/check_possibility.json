@@ -1,0 +1,170 @@
+{
+    "case_erector": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "case_erector_conveyor": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "L3C4_infeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc22_preinfeed_L3C3": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc21_preinfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc20_preinfeed_L3C3": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc20_preinfeed_L3C2": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc19_preinfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc18_preinfeed_L3C2": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc18_preinfeed_L3C1": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc17_preinfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc17_infeed": {
+        "flag": 0,
+        "timestamp": "2025-04-19 05:13:19.226501"
+    },
+    "mc17_dropping_zone": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc17_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc17_post_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc18_post_outfeed_L3C1": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc18_post_outfeed_L3C2": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc19_post_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc20_post_outfeed_L3C2": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc20_post_outfeed_L3C3": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc21_post_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc22_post_outfeed_L3C3": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "L3C4_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "pre_taping": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "l3_tapping_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "conveyor_to_highbay": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "check_weigher_rejection": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc22_infeed": {
+        "flag": 0,
+        "timestamp": "2025-04-19 05:13:18.018636"
+    },
+    "mc22_dropping_zone": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc22_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc21_infeed": {
+        "flag": 0,
+        "timestamp": "2025-04-19 05:13:17.107325"
+    },
+    "mc21_dropping_zone": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc21_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc20_infeed": {
+        "flag": 0,
+        "timestamp": "2025-04-19 05:10:50.624974"
+    },
+    "mc20_dropping_zone": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc20_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc19_infeed": {
+        "flag": 0,
+        "timestamp": "2025-04-19 05:12:51.345519"
+    },
+    "mc19_dropping_zone": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc19_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc18_infeed": {
+        "flag": 0,
+        "timestamp": "2025-04-19 05:07:07.930466"
+    },
+    "mc18_dropping_zone": {
+        "flag": 0,
+        "timestamp": ""
+    },
+    "mc18_outfeed": {
+        "flag": 0,
+        "timestamp": ""
+    }
+}

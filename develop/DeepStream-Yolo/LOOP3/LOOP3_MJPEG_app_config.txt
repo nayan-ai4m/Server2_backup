@@ -1,0 +1,245 @@
+[application]
+enable-perf-measurement=1
+perf-measurement-interval-sec=20
+
+[tiled-display]
+enable=1
+rows=2
+columns=2
+width=1920
+height=1080
+gpu-id=0
+nvbuf-memory-type=0
+
+
+[source0]
+enable=1
+type=4
+uri=rtsp://admin:unilever2024@192.168.1.21:554/Streaming/Channels/101
+num-sources=1
+gpu-id=0
+#latency=9000
+rtsp-reconnect-attempts=100000
+rtsp-reconnect-interval-sec=10
+# (0): memtype_device   - Memory type Device
+# (1): memtype_pinned   - Memory type Host Pinned
+# (2): memtype_unified  - Memory type Unified
+cudadec-memtype=0
+#do-rtsp-keep-alive=true
+udp-reconnect=TRUE
+
+
+[source1]
+enable=1
+type=4
+uri=rtsp://admin:unilever2024@192.168.1.20:554/Streaming/Channels/101
+num-sources=1
+gpu-id=0
+#latency=9000
+rtsp-reconnect-attempts=100000
+rtsp-reconnect-interval-sec=10
+# (0): memtype_device   - Memory type Device
+# (1): memtype_pinned   - Memory type Host Pinned
+# (2): memtype_unified  - Memory type Unified
+cudadec-memtype=0
+#do-rtsp-keep-alive=true
+udp-reconnect=TRUE
+
+
+[source2]
+enable=1
+type=4
+uri=rtsp://admin:unilever2024@192.168.1.22:554/Streaming/Channels/101
+num-sources=1
+gpu-id=0
+#latency=9000
+rtsp-reconnect-attempts=100000
+rtsp-reconnect-interval-sec=10
+# (0): memtype_device   - Memory type Device
+# (1): memtype_pinned   - Memory type Host Pinned
+# (2): memtype_unified  - Memory type Unified
+cudadec-memtype=0
+#do-rtsp-keep-alive=true
+udp-reconnect=TRUE
+
+
+
+#Taping_view2
+[source3]
+enable=1
+type=4
+uri=rtsp://admin:unilever2024@192.168.1.31:554/Streaming/Channels/101
+num-sources=1
+gpu-id=0
+#latency=9000
+rtsp-reconnect-attempts=100000
+rtsp-reconnect-interval-sec=10
+# (0): memtype_device   - Memory type Device
+# (1): memtype_pinned   - Memory type Host Pinned
+# (2): memtype_unified  - Memory type Unified
+cudadec-memtype=0
+#do-rtsp-keep-alive=true
+udp-reconnect=TRUE
+
+
+
+[sink0]
+enable=1
+type=1
+sync=0
+gpu-id=0
+nvbuf-memory-type=0
+
+[sink1]
+enable=1
+#Type - 1=FakeSink 2=EglSink 3=File 4=UDPSink 5=nvoverlaysink 6=MsgConvBroker
+type=6
+msg-conv-config=hul_loop3_msg_conv.txt
+#(0): PAYLOAD_DEEPSTREAM - Deepstream schema payload
+#(1): PAYLOAD_DEEPSTREAM_MINIMAL - Deepstream schema payload minimal
+#(256): PAYLOAD_RESERVED - Reserved type
+#(257): PAYLOAD_CUSTOM   - Custom schema payload
+msg-conv-payload-type=1
+#(0): Create payload using NvdsEventMsgMeta
+#(1): New Api to create payload using NvDsFrameMeta
+msg-conv-msg2p-new-api=1
+#Frame interval at which payload is generated
+msg-conv-frame-interval=2
+msg-broker-proto-lib=/opt/nvidia/deepstream/deepstream/lib/libnvds_kafka_proto.so
+#Provide your msg-broker-conn-str here
+msg-broker-conn-str=192.168.1.168;9092;loop3
+topic=loop3
+#Optional:
+#msg-broker-config=/opt/nvidia/deepstream/deepstream/sources/libs/amqp_protocol_adaptor/cfg_amqp.txt
+#new-api=0
+#(0) Use message adapter library api's
+#(1) Use new msgbroker library api's
+
+[sink2]
+enable=1
+#Type - 1=FakeSink 2=EglSink 3=File 4=RTSPStreaming
+type=4
+#1=h264 2=h265
+codec=1
+#encoder type 0=Hardware 1=Software
+enc-type=0
+sync=0
+bitrate=400000
+#H264 Profile - 0=Baseline 2=Main 4=High
+#H265 Profile - 0=Main 1=Main10
+# set profile only for hw encoder, sw encoder selects profile based on sw-preset
+profile=0
+# set below properties in case of RTSPStreaming
+rtsp-port=8555
+udp-port=5401
+
+
+[osd]
+enable=1
+gpu-id=0
+border-width=1
+text-size=10
+text-color=1;1;1;1;
+text-bg-color=0.3;0.3;0.3;1
+font=Serif
+show-clock=0
+clock-x-offset=800
+clock-y-offset=820
+clock-text-size=12
+clock-color=1;0;0;0
+nvbuf-memory-type=0
+
+[streammux]
+gpu-id=0
+live-source=1
+batch-size=4
+batched-push-timeout=40000
+width=3840
+height=2160
+
+
+[primary-gie]
+enable=1
+gpu-id=0
+interval=3
+gie-unique-id=1
+nvbuf-memory-type=0
+config-file=config_infer_primary_yoloV9.txt
+
+[secondary-gie0]
+enable=0
+#model-engine-file=orientation.etlt_b24_gpu0_fp16.engine
+gpu-id=0
+interval=1
+batch-size=24
+input-tensor-meta=0
+gie-unique-id=2
+operate-on-gie-id=1
+operate-on-class-ids=0;
+config-file=LOOP3_config_infer_secondary_orientation_left.txt
+
+[secondary-gie1]
+enable=0
+#model-engine-file=taping.etlt_b24_gpu0_fp16.engine
+gpu-id=0
+interval=1
+batch-size=24
+input-tensor-meta=0
+gie-unique-id=3
+operate-on-gie-id=1
+operate-on-class-ids=0;
+config-file=LOOP3_config_infer_secondary_taping.txt
+
+
+[secondary-gie3]
+enable=0
+#model-engine-file=taping.etlt_b24_gpu0_fp16.engine
+gpu-id=0
+interval=1
+batch-size=24
+input-tensor-meta=0
+gie-unique-id=5
+operate-on-gie-id=1
+operate-on-class-ids=0;
+config-file=LOOP3_config_infer_secondary_matfilling.txt
+
+
+[secondary-gie2]
+enable=0
+#model-engine-file=orientation.etlt_b24_gpu0_fp16.engine
+gpu-id=0
+interval=1
+batch-size=24
+input-tensor-meta=0
+gie-unique-id=4
+operate-on-gie-id=1
+operate-on-class-ids=0;
+config-file=LOOP3_config_infer_secondary_orientation_right.txt
+
+
+[nvds-analytics]
+enable=1
+config-file=config_nvdsanalytics_loop3.txt
+
+[tracker]
+enable=1
+# For NvDCF and DeepSORT tracker, tracker-width and tracker-height must be a multiple of 32, respectively
+tracker-width=640
+tracker-height=384
+ll-lib-file=/opt/nvidia/deepstream/deepstream/lib/libnvds_nvmultiobjecttracker.so
+# ll-config-file required to set different tracker types
+# ll-config-file=../../../../../samples/configs/deepstream-app/config_tracker_IOU.yml
+ll-config-file=/opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/config_tracker_NvDCF_perf.yml
+#ll-config-file=/opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/config_tracker_NvDCF_accuracy.yml
+# ll-config-file=../../../../../samples/configs/deepstream-app/config_tracker_DeepSORT.yml
+gpu-id=0
+enable-batch-process=1
+enable-past-frame=0
+display-tracking-id=1
+
+
+
+[tests]
+file-loop=0
+
+

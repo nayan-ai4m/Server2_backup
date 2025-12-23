@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/getting_started_cpp.dir/getting_started.cpp.o -o ../../bin/getting_started_cpp   -L/home/ai4m/develop/Baumer_neoAPI_1.4.1_lin_x86_64_cpp/lib  -Wl,-rpath,/home/ai4m/develop/Baumer_neoAPI_1.4.1_lin_x86_64_cpp/lib -lneoapi_cpp 

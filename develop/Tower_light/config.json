@@ -1,0 +1,24 @@
+{
+    "database": {
+        "host": "192.168.0.185",
+        "database": "hul",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "port": 5432
+    },
+    "nats": {
+        "server": "nats://192.168.1.149:4222"
+    },
+    "polling_interval": 2,
+    "machines": [
+        {
+            "plc_id": "25",
+            "tag_name": "tower_light",
+            "machine_id": "MC 25",
+            "table_name": "field_overview_tp_status_l4",
+            "nats_topic": "adv.154",
+            "true_value": 1,
+            "false_value": 0
+        }
+    ]
+}

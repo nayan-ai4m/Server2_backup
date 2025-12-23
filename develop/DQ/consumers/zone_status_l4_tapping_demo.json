@@ -1,0 +1,17 @@
+{
+    "l4_tapping_outfeed": {
+        "status": 0
+    },
+    "l4_tapping_infeed": {
+        "status": 1,
+        "timestamp": "2025-03-09 04:35:00.148629"
+    },
+    "l4_outfeed": {
+        "status": 1,
+        "timestamp": "2025-03-10 00:25:48.469557"
+    },
+    "l4_infeed": {
+        "status": 1,
+        "timestamp": "2025-02-03 16:40:45.641956"
+    }
+}

@@ -1,0 +1,392 @@
+{
+  "MC17": {
+    "input_dir": "baumer_images_180",
+    "output_dir": "/home/ai4m/develop/data/baumer",
+    "inference_output_dir": "/home/ai4m/develop/backup/develop/DQ/cameras/baumer/inference/june4/mc17",
+    "models": {
+      "sunsilk_black": {
+        "url": "0.0.0.0:8006",
+        "model_name": "sunsilk_black",
+        "size": 1280,
+        "threshold": 0.25,
+        "classes": {
+          "0": ["redtape", [0, 0, 255]],
+          "1": ["eyemark", [0, 255, 0]],
+          "2": ["slitting_cut", [255, 0, 255]],
+          "3": ["perforation", [0, 255, 255]],
+          "4": ["matte-on-belt", [0, 255, 255]],
+          "6": ["slitting", [255, 0, 255]],
+          "9": ["perforation_bad", [0, 255, 255]]
+        }
+      }
+    },
+    "db_str": "postgres://postgres:ai4m2024@192.168.1.168:5432/hul?sslmode=disable",
+    "zone": [110, 534, 1810, 706],
+    "eyemark_threshold": 5,
+    "socket_port": "5555",
+    "camera_id": "MC17",
+    "table_name": "mc17_tp_status",
+    "event_mapping": {
+      "eyemark_shift": "Vertical Eyemark Shift Detected",
+      "redtape": "Redtape Detected",
+      "perforation_missing": "Bad Perforation Detected"
+    },
+    "class_names": ["bad", "good"],
+    "event_columns": {
+      "redtape": "tp17",
+      "eyemark_shift": "tp20",
+      "perforation_missing": "tp18"
+    },
+    "filepath_prefix": "http://192.168.0.158:8015/",
+    "confidence_threshold": 0.50,
+    "horizontal_zone": [1160, 524, 1434, 1458],
+    "triton_classifier_url": "0.0.0.0:8006",
+    "perforation_classifier_model": "perforation_classify",
+    "event_table": "event_table",
+    "zone_name": "Baumer Camera",
+    "alert_type": "Quality",
+    "color_code": 3,
+    "preprocessing": {
+      "resize_dims": [224, 224],
+      "mean": [0.485, 0.456, 0.406],
+      "std": [0.229, 0.224, 0.225]
+    },
+    "hsv_lower": [0, 100, 100],
+    "hsv_upper": [10, 255, 255],
+    "max_contours": 5,
+    "min_contour_area": 1500,
+    "primary_model": "sunsilk_black",
+    "class_ids": {
+      "redtape": 0,
+      "eyemark": 1,
+      "perforation": 3
+    },
+    "file_extension": ".jpeg",
+    "timestamp_format": "%m_%d_%Y_%H_%M_%S_%f_%p"
+  },
+    "MC18": {
+      "input_dir": "baumer_images_180",
+      "output_dir": "/home/ai4m/develop/data/baumer",
+      "inference_output_dir": "/home/ai4m/develop/baumer/inference/mc18",
+      "models": {
+        "sunsilk_black": {
+          "url": "0.0.0.0:8006",
+          "model_name": "sunsilk_black",
+          "size": 1280,
+          "threshold": 0.25,
+          "classes": {
+            "0": ["redtape", [0, 0, 255]],
+            "1": ["eyemark", [0, 255, 0]],
+            "2": ["slitting_cut", [255, 0, 255]],
+            "3": ["perforation", [0, 255, 255]],
+            "4": ["matte-on-belt", [0, 255, 255]],
+            "6": ["slitting", [255, 0, 255]],
+            "9": ["perforation_bad", [0, 255, 255]]
+          }
+        }
+      },
+      "db_str": "postgres://postgres:ai4m2024@192.168.1.168:5432/hul?sslmode=disable",
+      "zone": [615, 276, 984, 307],
+      "eyemark_threshold": 5,
+      "socket_port": "5563",
+      "camera_id": "MC18",
+      "table_name": "mc18_tp_status",
+      "event_mapping": {
+        "eyemark_shift": "Vertical Eyemark Shift Detected",
+        "redtape": "Redtape Detected",
+        "perforation_missing": "Bad Perforation Detected"
+      },
+      "class_names": ["bad", "good"],
+      "event_columns": {
+        "redtape": "tp17",
+        "eyemark_shift": "tp20",
+        "perforation_missing": "tp18"
+      },
+      "filepath_prefix": "http://192.168.0.158:8015/",
+      "confidence_threshold": 0.50,
+      "horizontal_zone": [1160, 524, 1434, 1458],
+      "triton_classifier_url": "0.0.0.0:8006",
+      "perforation_classifier_model": "perforation_classify",
+      "event_table": "event_table",
+      "zone_name": "Baumer Camera",
+      "alert_type": "Quality",
+      "color_code": 3,
+      "preprocessing": {
+        "resize_dims": [224, 224],
+        "mean": [0.485, 0.456, 0.406],
+        "std": [0.229, 0.224, 0.225]
+      },
+      "hsv_lower": [0, 100, 100],
+      "hsv_upper": [10, 255, 255],
+      "max_contours": 5,
+      "min_contour_area": 1500,
+      "primary_model": "sunsilk_black",
+      "class_ids": {
+        "redtape": 0,
+        "eyemark": 1,
+        "perforation": 3
+      },
+      "file_extension": ".jpeg",
+      "timestamp_format": "%m_%d_%Y_%H_%M_%S_%f_%p"
+    },
+      "MC19": {
+        "input_dir": "baumer_images_180",
+        "output_dir": "/home/ai4m/develop/data/baumer",
+        "inference_output_dir": "/home/ai4m/develop/baumer/inference/mc19",
+        "models": {
+          "sunsilk_black": {
+            "url": "0.0.0.0:8006",
+            "model_name": "sunsilk_black",
+            "size": 1280,
+            "threshold": 0.25,
+            "classes": {
+              "0": ["redtape", [0, 0, 255]],
+              "1": ["eyemark", [0, 255, 0]],
+              "2": ["slitting_cut", [255, 0, 255]],
+              "3": ["perforation", [0, 255, 255]],
+              "4": ["matte-on-belt", [0, 255, 255]],
+              "6": ["slitting", [255, 0, 255]],
+              "9": ["perforation_bad", [0, 255, 255]]
+            }
+          }
+        },
+        "db_str": "postgres://postgres:ai4m2024@192.168.1.168:5432/hul?sslmode=disable",
+        "zone": [615, 276, 984, 307],
+        "eyemark_threshold": 5,
+        "socket_port": "5557",
+        "camera_id": "MC19",
+        "table_name": "mc19_tp_status",
+        "event_mapping": {
+          "eyemark_shift": "Vertical Eyemark Shift Detected",
+          "redtape": "Redtape Detected",
+          "perforation_missing": "Bad Perforation Detected"
+        },
+        "class_names": ["bad", "good"],
+        "event_columns": {
+          "redtape": "tp17",
+          "eyemark_shift": "tp20",
+          "perforation_missing": "tp18"
+        },
+        "filepath_prefix": "http://192.168.0.158:8015/",
+        "confidence_threshold": 0.50,
+        "horizontal_zone": [1160, 524, 1434, 1458],
+        "triton_classifier_url": "0.0.0.0:8006",
+        "perforation_classifier_model": "perforation_classify",
+        "event_table": "event_table",
+        "zone_name": "Baumer Camera",
+        "alert_type": "Quality",
+        "color_code": 3,
+        "preprocessing": {
+          "resize_dims": [224, 224],
+          "mean": [0.485, 0.456, 0.406],
+          "std": [0.229, 0.224, 0.225]
+        },
+        "hsv_lower": [0, 100, 100],
+        "hsv_upper": [10, 255, 255],
+        "max_contours": 5,
+        "min_contour_area": 1500,
+        "primary_model": "sunsilk_black",
+        "class_ids": {
+          "redtape": 0,
+          "eyemark": 1,
+          "perforation": 3
+        },
+        "file_extension": ".jpeg",
+        "timestamp_format": "%m_%d_%Y_%H_%M_%S_%f_%p"
+      },
+        "MC20": {
+          "input_dir": "baumer_images_180",
+          "output_dir": "/home/ai4m/develop/data/baumer",
+          "inference_output_dir": "/home/ai4m/develop/baumer/inference/mc20",
+          "models": {
+            "sunsilk_black": {
+              "url": "0.0.0.0:8006",
+              "model_name": "sunsilk_black",
+              "size": 1280,
+              "threshold": 0.25,
+              "classes": {
+                "0": ["redtape", [0, 0, 255]],
+                "1": ["eyemark", [0, 255, 0]],
+                "2": ["slitting_cut", [255, 0, 255]],
+                "3": ["perforation", [0, 255, 255]],
+                "4": ["matte-on-belt", [0, 255, 255]],
+                "6": ["slitting", [255, 0, 255]],
+                "9": ["perforation_bad", [0, 255, 255]]
+              }
+            }
+          },
+          "db_str": "postgres://postgres:ai4m2024@192.168.1.168:5432/hul?sslmode=disable",
+          "zone": [986, 620, 1298, 664],
+          "eyemark_threshold": 5,
+          "socket_port": "5558",
+          "camera_id": "MC20",
+          "table_name": "mc20_tp_status",
+          "event_mapping": {
+            "eyemark_shift": "Vertical Eyemark Shift Detected",
+            "redtape": "Redtape Detected",
+            "perforation_missing": "Bad Perforation Detected"
+          },
+          "class_names": ["bad", "good"],
+          "event_columns": {
+            "redtape": "tp17",
+            "eyemark_shift": "tp20",
+            "perforation_missing": "tp18"
+          },
+          "filepath_prefix": "http://192.168.0.158:8015/",
+          "confidence_threshold": 0.50,
+          "horizontal_zone": [1160, 524, 1434, 1458],
+          "triton_classifier_url": "0.0.0.0:8006",
+          "perforation_classifier_model": "perforation_classify",
+          "event_table": "event_table",
+          "zone_name": "Baumer Camera",
+          "alert_type": "Quality",
+          "color_code": 3,
+          "preprocessing": {
+            "resize_dims": [224, 224],
+            "mean": [0.485, 0.456, 0.406],
+            "std": [0.229, 0.224, 0.225]
+          },
+          "hsv_lower": [0, 100, 100],
+          "hsv_upper": [10, 255, 255],
+          "max_contours": 5,
+          "min_contour_area": 1500,
+          "primary_model": "sunsilk_black",
+          "class_ids": {
+            "redtape": 0,
+            "eyemark": 1,
+            "perforation": 3
+          },
+          "file_extension": ".jpeg",
+          "timestamp_format": "%m_%d_%Y_%H_%M_%S_%f_%p"
+        },
+          "MC21": {
+            "input_dir": "baumer_images_180",
+            "output_dir": "/home/ai4m/develop/data/baumer",
+            "inference_output_dir": "/home/ai4m/develop/baumer/inference/mc21",
+            "models": {
+              "sunsilk_black": {
+                "url": "0.0.0.0:8006",
+                "model_name": "sunsilk_black",
+                "size": 1280,
+                "threshold": 0.25,
+                "classes": {
+                  "0": ["redtape", [0, 0, 255]],
+                  "1": ["eyemark", [0, 255, 0]],
+                  "2": ["slitting_cut", [255, 0, 255]],
+                  "3": ["perforation", [0, 255, 255]],
+                  "4": ["matte-on-belt", [0, 255, 255]],
+                  "6": ["slitting", [255, 0, 255]],
+                  "9": ["perforation_bad", [0, 255, 255]]
+                }
+              }
+            },
+            "db_str": "postgres://postgres:ai4m2024@192.168.1.168:5432/hul?sslmode=disable",
+            "zone": [856, 367, 1302, 417],
+            "eyemark_threshold": 5,
+            "socket_port": "5560",
+            "camera_id": "MC21",
+            "table_name": "mc21_tp_status",
+            "event_mapping": {
+              "eyemark_shift": "Vertical Eyemark Shift Detected",
+              "redtape": "Redtape Detected",
+              "perforation_missing": "Bad Perforation Detected"
+            },
+            "class_names": ["bad", "good"],
+            "event_columns": {
+              "redtape": "tp17",
+              "eyemark_shift": "tp20",
+              "perforation_missing": "tp18"
+            },
+            "filepath_prefix": "http://192.168.0.158:8015/",
+            "confidence_threshold": 0.50,
+            "horizontal_zone": [1160, 524, 1434, 1458],
+            "triton_classifier_url": "0.0.0.0:8006",
+            "perforation_classifier_model": "perforation_classify",
+            "event_table": "event_table",
+            "zone_name": "Baumer Camera",
+            "alert_type": "Quality",
+            "color_code": 3,
+            "preprocessing": {
+              "resize_dims": [224, 224],
+              "mean": [0.485, 0.456, 0.406],
+              "std": [0.229, 0.224, 0.225]
+            },
+            "hsv_lower": [0, 100, 100],
+            "hsv_upper": [10, 255, 255],
+            "max_contours": 5,
+            "min_contour_area": 1500,
+            "primary_model": "sunsilk_black",
+            "class_ids": {
+              "redtape": 0,
+              "eyemark": 1,
+              "perforation": 3
+            },
+            "file_extension": ".jpeg",
+            "timestamp_format": "%m_%d_%Y_%H_%M_%S_%f_%p"
+          },
+            "MC22": {
+              "input_dir": "baumer_images_180",
+              "output_dir": "/home/ai4m/develop/data/baumer",
+              "inference_output_dir": "/home/ai4m/develop/baumer/inference/mc22",
+              "models": {
+                "sunsilk_black": {
+                  "url": "0.0.0.0:8006",
+                  "model_name": "sunsilk_black",
+                  "size": 1280,
+                  "threshold": 0.25,
+                  "classes": {
+                    "0": ["redtape", [0, 0, 255]],
+                    "1": ["eyemark", [0, 255, 0]],
+                    "2": ["slitting_cut", [255, 0, 255]],
+                    "3": ["perforation", [0, 255, 255]],
+                    "4": ["matte-on-belt", [0, 255, 255]],
+                    "6": ["slitting", [255, 0, 255]],
+                    "9": ["perforation_bad", [0, 255, 255]]
+                  }
+                }
+              },
+              "db_str": "postgres://postgres:ai4m2024@192.168.1.168:5432/hul?sslmode=disable",
+              "zone": [986, 620, 1298, 664],
+              "eyemark_threshold": 5,
+              "socket_port": "5559",
+              "camera_id": "MC22",
+              "table_name": "mc22_tp_status",
+              "event_mapping": {
+                "eyemark_shift": "Vertical Eyemark Shift Detected",
+                "redtape": "Redtape Detected",
+                "perforation_missing": "Bad Perforation Detected"
+              },
+              "class_names": ["bad", "good"],
+              "event_columns": {
+                "redtape": "tp17",
+                "eyemark_shift": "tp20",
+                "perforation_missing": "tp18"
+              },
+              "filepath_prefix": "http://192.168.0.158:8015/",
+              "confidence_threshold": 0.50,
+              "horizontal_zone": [1160, 524, 1434, 1458],
+              "triton_classifier_url": "0.0.0.0:8006",
+              "perforation_classifier_model": "perforation_classify",
+              "event_table": "event_table",
+              "zone_name": "Baumer Camera",
+              "alert_type": "Quality",
+              "color_code": 3,
+              "preprocessing": {
+                "resize_dims": [224, 224],
+                "mean": [0.485, 0.456, 0.406],
+                "std": [0.229, 0.224, 0.225]
+              },
+              "hsv_lower": [0, 100, 100],
+              "hsv_upper": [10, 255, 255],
+              "max_contours": 5,
+              "min_contour_area": 1500,
+              "primary_model": "sunsilk_black",
+              "class_ids": {
+                "redtape": 0,
+                "eyemark": 1,
+                "perforation": 3
+              },
+              "file_extension": ".jpeg",
+              "timestamp_format": "%m_%d_%Y_%H_%M_%S_%f_%p"
+            }
+}

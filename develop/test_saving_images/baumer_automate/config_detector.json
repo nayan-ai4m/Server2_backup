@@ -1,0 +1,134 @@
+{
+    "dynamic_manager": {
+      "scan_interval": 60,
+      "startup_delay": 2,
+      "shutdown_timeout": 5,
+      "enable_auto_restart": true,
+      "max_restart_attempts": 3
+    },
+    "database": {
+    "connection_string": "postgres://postgres:ai4m2024@192.168.1.149:5432/hul?sslmode=disable"
+    },
+    "sku_mapping": {
+      "DVSC2R5": {
+        "sachet_type": "white",
+        "product_name": "DOVE DC-5.5ml",
+        "brand": "Dove"
+      },
+      "DVSBPR0": {
+        "sachet_type": "white",
+        "product_name": "DOVE BP-6ML",
+        "brand": "Dove"
+      },
+      "DVS1R1": {
+        "sachet_type": "white",
+        "product_name": "DOVE DND-5ML",
+        "brand": "Dove"
+      },
+      "DVSA3R8": {
+        "sachet_type": "white",
+        "product_name": "DOVE HRS 6ML",
+        "brand": "Dove"
+      },
+      "DVWA2R8": {
+        "sachet_type": "white",
+        "product_name": "DOVE DSS 6ML",
+        "brand": "Dove"
+      },
+      "TRSI1R1": {
+        "sachet_type": "red",
+        "product_name": "TRES KRT-6ML",
+        "brand": "TRESemme"
+      },
+      "TRSH1R3": {
+        "sachet_type": "black",
+        "product_name": "TRES HFD 6ML",
+        "brand": "TRESemme"
+      },
+      "TRRY100": {
+        "sachet_type": "black",
+        "product_name": "TRES SS-6ML",
+        "brand": "TRESemme"
+      },
+      "CP1RSSFG69785815": {
+        "sachet_type": "white",
+        "product_name": "CP-6ML",
+        "brand": "Clinic Plus"
+      },
+      "CLSE1R4": {
+        "sachet_type": "white",
+        "product_name": "CP SS 6ML",
+        "brand": "Clinic Plus"
+      },
+      "CLPE1R2": {
+        "sachet_type": "white",
+        "product_name": "CP SL 50P 6ML",
+        "brand": "Clinic Plus"
+      },
+      "CP1RSEGG68248688": {
+        "sachet_type": "white",
+        "product_name": "CPEGG-6ML",
+        "brand": "Clinic Plus"
+      },
+      "SSB1RSSF68436937": {
+        "sachet_type": "black",
+        "product_name": "SSB-6ML",
+        "brand": "Sunsilk"
+      },
+      "SSP1RSSF68810922": {
+        "sachet_type": "pink",
+        "product_name": "SSP-5.5ML",
+        "brand": "Sunsilk"
+      }
+    },
+    "loop_configuration": {
+      "loop3": {
+        "table_name": "loop3_overview",
+        "machines": ["mc17", "mc18", "mc19", "mc20", "mc21", "mc22"],
+        "description": "Production Loop 3"
+      },
+      "loop4": {
+        "table_name": "loop4_overview",
+        "machines": ["mc25", "mc26", "mc27", "mc28", "mc29", "mc30"],
+        "description": "Production Loop 4"
+      }
+    },
+    "detector_defaults": {
+      "startup_timeout": 5,
+      "health_check_interval": 30,
+      "restart_on_failure": true,
+      "log_level": "INFO"
+    },
+    "fallback_settings": {
+      "default_sachet_type": "white",
+      "enable_fallback": true,
+      "fallback_on_unknown_sku": true,
+      "fallback_on_query_error": true
+    },
+    "notification_settings": {
+      "enable_notifications": false,
+      "notify_on_sku_change": true,
+      "notify_on_detector_start": true,
+      "notify_on_detector_stop": true,
+      "notify_on_error": true
+    },
+    "database_settings": {
+      "query_timeout": 10,
+      "retry_attempts": 3,
+      "retry_delay": 5,
+      "connection_pool_size": 5
+    },
+    "logging_settings": {
+      "manager_log_file": "dynamic_detector_manager.log",
+      "manager_log_level": "INFO",
+      "manager_log_max_bytes": 10485760,
+      "manager_log_backup_count": 5,
+      "detector_log_dir": "logs",
+      "pid_dir": "pids"
+    },
+    "performance_settings": {
+      "max_concurrent_operations": 6,
+      "batch_operation_delay": 1,
+      "graceful_shutdown_timeout": 10
+    }
+  }

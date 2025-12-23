@@ -1,0 +1,76 @@
+{
+    "timestamp": "2024-10-19T16:02:26.967498",
+    "verticalSealingStroke1": 100,
+    "verticalSealingStroke2": 120,
+    "verticalSealingServoTorque": 5.5,
+    "verticalSealingServoCurrent": 2.3,
+    "rotaryValveStart": 30,
+    "rotaryValveEnd": 40,
+    "suctionStart": 50,
+    "suctionEnd": 60,
+    "mc19_ver_sealer_front_1_temp": 67.5,
+    "mc19_ver_sealer_rear_1_temp": 76.7,
+    "mc19_ver_sealer_front_1_actual_temp": 66.0,
+    "mc19_ver_sealer_rear_1_actual_temp": 75.5,
+  
+    "mc19_ver_sealer_front_2_temp": 70.3,
+    "mc19_ver_sealer_rear_2_temp": 78.1,
+    "mc19_ver_sealer_front_2_actual_temp": 69.5,
+    "mc19_ver_sealer_rear_2_actual_temp": 77.8,
+  
+    "mc19_ver_sealer_front_3_temp": 65.2,
+    "mc19_ver_sealer_rear_3_temp": 74.4,
+    "mc19_ver_sealer_front_3_actual_temp": 64.8,
+    "mc19_ver_sealer_rear_3_actual_temp": 73.9,
+  
+    "mc19_ver_sealer_front_4_temp": 68.9,
+    "mc19_ver_sealer_rear_4_temp": 77.0,
+    "mc19_ver_sealer_front_4_actual_temp": 68.0,
+    "mc19_ver_sealer_rear_4_actual_temp": 76.5,
+  
+    "mc19_ver_sealer_front_5_temp": 69.5,
+    "mc19_ver_sealer_rear_5_temp": 75.3,
+    "mc19_ver_sealer_front_5_actual_temp": 68.5,
+    "mc19_ver_sealer_rear_5_actual_temp": 74.9,
+  
+    "mc19_ver_sealer_front_6_temp": 71.0,
+    "mc19_ver_sealer_rear_6_temp": 78.5,
+    "mc19_ver_sealer_front_6_actual_temp": 70.2,
+    "mc19_ver_sealer_rear_6_actual_temp": 77.9,
+  
+    "mc19_ver_sealer_front_7_temp": 66.7,
+    "mc19_ver_sealer_rear_7_temp": 76.1,
+    "mc19_ver_sealer_front_7_actual_temp": 65.5,
+    "mc19_ver_sealer_rear_7_actual_temp": 75.4,
+  
+    "mc19_ver_sealer_front_8_temp": 72.3,
+    "mc19_ver_sealer_rear_8_temp": 79.0,
+    "mc19_ver_sealer_front_8_actual_temp": 71.0,
+    "mc19_ver_sealer_rear_8_actual_temp": 78.3,
+  
+    "mc19_ver_sealer_front_9_temp": 68.4,
+    "mc19_ver_sealer_rear_9_temp": 76.8,
+    "mc19_ver_sealer_front_9_actual_temp": 67.0,
+    "mc19_ver_sealer_rear_9_actual_temp": 76.1,
+  
+    "mc19_ver_sealer_front_10_temp": 70.1,
+    "mc19_ver_sealer_rear_10_temp": 77.4,
+    "mc19_ver_sealer_front_10_actual_temp": 69.8,
+    "mc19_ver_sealer_rear_10_actual_temp": 76.7,
+  
+    "mc19_ver_sealer_front_11_temp": 65.5,
+    "mc19_ver_sealer_rear_11_temp": 74.0,
+    "mc19_ver_sealer_front_11_actual_temp": 64.2,
+    "mc19_ver_sealer_rear_11_actual_temp": 73.5,
+  
+    "mc19_ver_sealer_front_12_temp": 69.8,
+    "mc19_ver_sealer_rear_12_temp": 75.9,
+    "mc19_ver_sealer_front_12_actual_temp": 68.9,
+    "mc19_ver_sealer_rear_12_actual_temp": 75.2,
+  
+    "mc19_ver_sealer_front_13_temp": 72.1,
+    "mc19_ver_sealer_rear_13_temp": 78.0,
+    "mc19_ver_sealer_front_13_actual_temp": 71.5,
+    "mc19_ver_sealer_rear_13_actual_temp": 77.5
+  }
+  
